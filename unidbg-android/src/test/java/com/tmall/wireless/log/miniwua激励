@@ -1,0 +1,181 @@
+getCorrectionTime 固定以后miniwua也固定ehVppJ1w4h646ckuMQCQN0Qn97eB4TeBm5g47L2LMbA=
+先base64 decode 结果
+00000000  7a 15 69 a4 9d 70 e2 1e b8 e9 c9 2e 31 00 90 37  |z.i¤.pâ.¸éÉ.1..7|
+00000010  44 27 f7 b7 81 e1 37 81 9b 98 38 ec bd 8b 31 b0  |D'÷·.á7...8ì½.1°|
+shr 7a1569a4
+找到两个
+Heap matches: RW@0x402d92a0
+Heap matches: RW@0x402f10c0
+traceread 和write 可以看出0x402f10c0是从402d92a0读数据写入的
+tracewrite 402d92a0
+找到[libmain.so]0x9ff5e
+看上去是个加密函数 函数地址是sub_9F37C [libmain.so]里面
+9F37C这个函数里面几个数据块 ,直接看看dword_DF808的值 0x63a5c663 应该就是aes查表法了
+9F37C的参数一应该是密钥扩展 参数2就是最后存数据的地方 参数3是要加密的数据
+sub_9EF50(v22, v10, v3)就是秘钥扩展的过程
+根据调用栈找到9984C
+找到iv
+key和iv是一致的
+a8262cf290db1caa
+0xbfffe880里面是带加密的数据
+0000: 00 00 00 03 A8 05 00 24 02 28 05 A1 45 B9 05 3B    .......$.(..E..;
+0010: 99 20 35 A8 0C 0C 0C 0C 0C 0C 0C 0C 0C 0C 0C 0C    . 5.............
+是pkcs7填充
+验证通过
+trace 看下0xbfffe880
+是0x402cd6c0写入的
+0000: 00 00 00 03 A8 05 00 24 02 28 05 A1 45 B9 05 3B    .......$.(..E..;
+0010: 99 20 35 A8 00 00 00 00 00 00 00 00 00 00 00 00    . 5.............
+trace 0x402cd6c0 发现 0x402cd618 把数据写入 0x402cd6c0
+0x402cd618
+0000: 00 00 00 03 A8 05 00 24 02 28 05 A1 45 B9 05 3B    .......$.(..E..;
+0010: 99 20 35 A8 00 61 73 65 38 64 64 32 33 36 65 33    . 5..ase8dd236e3
+0020: 31 32 30 66 64 62 65 61 00 5D 0B 40 F9 5D 0B 40    120fdbea.].@.].@
+0030: A8 26 2C F2 10 00 00 00 02 00 00 00 88 28 2D 40    .&,..........(-@
+0040: 30 29 2D 40 22 BE D6 00 61 38 32 36 32 63 66 32    0)-@"...a8262cf2
+0050: 39 30 64 62 31 63 61 61 00 00 00 00 00 BF 00 00    90db1caa........
+又来自 0x4040c000
+0000: 00 00 00 03 A8 05 00 24 02 28 05 A1 45 B9 05 3B    .......$.(..E..;
+0010: 99 20 35 A8 00 00 00 00 00 00 00 00 00 00 00 00    . 5.............
+
+前4位是单独赋值的
+[14:13:39 584] Memory WRITE at 0x4040c000, data size = 1, data value = 0x0 pc=RX@0x401996a8[libc.so]0x176a8 lr=RX@0x401cecc5[libc.so]0x4ccc5
+[14:13:39 584] Memory WRITE at 0x4040c001, data size = 1, data value = 0x0 pc=RX@0x401996a8[libc.so]0x176a8 lr=RX@0x401cecc5[libc.so]0x4ccc5
+[14:13:39 584] Memory WRITE at 0x4040c002, data size = 1, data value = 0x0 pc=RX@0x401996a8[libc.so]0x176a8 lr=RX@0x401cecc5[libc.so]0x4ccc5
+[14:13:39 584] Memory WRITE at 0x4040c003, data size = 1, data value = 0x3 pc=RX@0x401996a8[libc.so]0x176a8
+
+后16位来自
+0x402cd648 libsecuritybody.so*0x248d3
+A8 05 00 24 02 28 05 A1 45 B9 05 3B 99 20 35 A8
+对0x248d3所在的函数追踪了一下
+发现402cd660就已经是这个值了
+A8 05 00 24 02 28 05 A1 45 B9 05 3B 99 20 35 A8
+同时用frida 看了下这个位置的真实值
+0xddf28ed0
+           0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F  0123456789ABCDEF
+ddf28ed0  03 4a 52 24 02 30 12 03 27 7f af 59 ed 63 19 42  .JR$.0..'..Y.c.B
+ddf28ee0  50 c8 d2 72 d7 6d c6 61 8e bc 2c fc e9 b3 30 93  P..r.m.a..,...0.
+ddf28ef0  e1 44 a5 9e 01 8b e6 ac bc 89 ec ce 02 1e 60 20  .D............`
+ddf28f00  b2 6f 15 59 c1 40 7b 0e 01 1e 42 b4 70 67 45 5a  .o.Y.@{...B.pgEZ
+ddf28f10  a1 01 20 15 86 3f ea b9 b8 44 38 ca 53 b2 64 f1  .. ..?...D8.S.d.
+ddf28f20  4d 88 9b df 3b 2e 06 06 4a 02 0a 30 4a 61 30 32  M...;...J..0Ja02
+ddf28f30  27 03
+
+[libsecuritybody.so]0xb1a6 里面看到0x402cd660是怎么进行操作的
+0x402cd660 里面初始值是
+A8 05 00 24 02 80 00 09 40 11 00 93 9C 88 30 00
+从80 开始
+和0xbffff3ae里面的
+A8 05 00 00 00 00 00 00 00 00 70 61 67 65 49 64
+a8 05 反复异或得到
+A8 05 00 24 02 28 05 A1 45 B9 05 3B 99 20 35 A8
+hex(0x2805A145B9053B992035A8^0x800009401100939C883000)='0xa805a805a805a805a805a8'
+通过真机调查发现
+基本上就是 0x402cd660 里面初始值从 0x402cd660[5]开始和 0x402cd660[0] 0x402cd660[1]
+反复异或得到结果 00 24 02这三位在真机里面是 52 24 02, 0x402cd660[0-1]是每次都会变的
+b699a2d0  1f b5 52 24 02 33 58 00 fc 3c d5 48 35 2a fa 48  ..R$.3X..<.H5*.H
+b699a2e0  37 3d 03 01 91 b9 c7 3b dc 70 ce 92 10 9f 78 d2  7=.....;.p....x.
+b699a2f0  e3 b3 8d 83 22 b1 bd f2 07 04 98 d2 c2 be d3 59  ...."..........Y
+b699a300  19 3b de ac 7d 29 56 f9 b7 74 93 19 0d 21 96 42  .;..})V..t...!.B
+b699a310  f0 5a 4d f1 a0 79 72 3f 2c c2 e5 a3 52 08 4e 7e  .ZM..yr?,...R.N~
+b699a320  c2 a9 97 dd e3 6f f4 05 00 01 40 33 00 93 9c 88  .....o....@3....
+b699a330  30 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  0...............
+几次验证可以看出33 58 00到最后的30 00 都是不变的
+正好trace了0x402cd660 查了下80 00 09 40 11 00 93 9C 88 30 00是
+lr=RX@0x410638d7[libsecuritybody.so]0x248d7
+依旧是这个函数
+查看之前trace这个函数保存下来的值
+402d1100
+8000094011000000d29c0f00696e
+939c883000来着两个变量
+bffff39c
+402ea0e0
+从真机结果来看分成了3部分
+33 58 00....6f f4
+05 00 01 40 33 00
+93 9c 88 30 00
+
+402d1100的值来自好几个地方
+80
+0x402d1100, data size = 1, data value = 0x80 pc=RX@0x41063a46[libsecuritybody.so]0x24a46
+ lr=RX@0x4104bd35[libsecuritybody.so]0xcd35
+0009
+[11:33:40 166] Memory WRITE at 0x402d1101, data size = 1, data value = 0x0 pc=RX@0x41063a46[libsecuritybody.so]0x24a46 lr=RX@0x4104db33[libsecuritybody.so]0xeb33
+[11:33:40 166] Memory WRITE at 0x402d1102, data size = 1, data value = 0x9 pc=RX@0x41063a46[libsecuritybody.so]0x24a46 lr=RX@0x4104db4f[libsecuritybody.so]0xeb4f
+40
+[11:33:40 175] Memory WRITE at 0x402d1103, data size = 1, data value = 0x40 pc=RX@0x41063a46[libsecuritybody.so]0x24a46 lr=RX@0x4104f1ad[libsecuritybody.so]0x101ad
+11
+[12:11:37 392] Memory WRITE at 0x402d1104, data size = 1, data value = 0x11 pc=RX@0x41063a46[libsecuritybody.so]0x24a46 lr=RX@0x4104ec1d[libsecuritybody.so]0xfc1d
+d29c0f
+[11:33:40 195] Memory WRITE at 0x402d1108, data size = 1, data value = 0xd2 pc=RX@0x401996d0[libc.so]0x176d0 lr=unidbg@0xd2
+[11:33:40 195] Memory WRITE at 0x402d1109, data size = 1, data value = 0x9c pc=RX@0x401996dc[libc.so]0x176dc lr=unidbg@0xf
+[11:33:40 195] Memory WRITE at 0x402d110a, data size = 1, data value = 0xf pc=RX@0x401996e0[libc.so]0x176e0 lr=unidbg@0xf
+
+696e
+[11:33:40 178] Memory WRITE at 0x402d1108, data size = 1, data value = 0x44 pc=RX@0x4009d51e[libmain.so]0x9d51e lr=unidbg@0x1
+[11:33:40 178] Memory WRITE at 0x402d1109, data size = 1, data value = 0x61 pc=RX@0x4009d51e[libmain.so]0x9d51e lr=unidbg@0x2
+[11:33:40 178] Memory WRITE at 0x402d110a, data size = 1, data value = 0x72 pc=RX@0x4009d51e[libmain.so]0x9d51e lr=unidbg@0x3
+[11:33:40 178] Memory WRITE at 0x402d110b, data size = 1, data value = 0x77 pc=RX@0x4009d51e[libmain.so]0x9d51e lr=unidbg@0x4
+[11:33:40 178] Memory WRITE at 0x402d110c, data size = 1, data value = 0x69 pc=RX@0x4009d51e[libmain.so]0x9d51e lr=unidbg@0x5
+[11:33:40 178] Memory WRITE at 0x402d110d, data size = 1, data value = 0x6e pc=RX@0x4009d51e[libmain.so]0x9d51e lr=unidbg@0x6
+
+分析下0x80
+0x402d1100, data size = 1, data value = 0x80 pc=RX@0x41063a46[libsecuritybody.so]0x24a46
+ lr=RX@0x4104bd35[libsecuritybody.so]0xcd35
+ 在libsecuritybody.so 0x24a23这个函数里面
+ "mov r5, r1" r1=0x80
+"strb r5, [r1, r0]"
+退到外层
+ [libsecuritybody.so 0x0cd33] [9047    ] 0x4104bd32: "blx r2" r2=0x41063a23
+ 查看逻辑 是
+ 0xbffff000中拿r1 0xbffff004拿r0
+ orr.w r1, r0, r1, lsl
+
+ 分析发现和真机不太一致
+ 不过0x24a46总共进过了6次 unidbg 6次是80 00 09 40 11 00就是最后要运算的结果
+ 真机里面 6次存进去05 00 01 40 33 00
+
+ 实际上清除app数据并断网的话 05 00 01 40 33 00 加后面的93 9c 88 30 00 就是计算miniwua要的结果
+ 对比来看就是少了前面这部分 33 58 00....6f f4  据说是aes解密的结果
+
+ 93 9c 88 30 00是getCorrectionTime返回的1651743950896的16进制0x180939c8830的后8位
+
+
+ 继续看0x80怎么来的
+ emulator.traceWrite(0xbffff000L,0xbffff000L+4);找到 c4a6定位代码看看
+ 0x0c49f] [44eac600] 0x4104b49e: "orr.w r0, r4, r6, lsl
+ 0x0c4a7] [45f8540c] 0x4104b4a6: "str r0, [r5, #-0x54]"
+
+ r4 0x80 r6 0x0
+继续追
+[18:29:45 876] Trace Instruction [libsecuritybody.so 0x0c469] [b601    ] 0x4104b468: "lsls r6, r6, #6" r6=0x0
+[18:29:45 877] Trace Instruction [libsecuritybody.so 0x0c46b] [46eac111] 0x4104b46a: "orr.w r1, r6, r1, lsl #7" r6=0x0 r1=0x1
+[18:29:45 877] Trace Instruction [libsecuritybody.so 0x0c46f] [41ea4211] 0x4104b46e: "orr.w r1, r1, r2, lsl #5" r1=0x80 r2=0x0
+[18:29:45 878] Trace Instruction [libsecuritybody.so 0x0c473] [6e79    ] 0x4104b472: "ldrb r6, [r5, #5]" r5=0x402e9700
+[18:29:45 879] Trace Instruction [libsecuritybody.so 0x0c475] [41ea0314] 0x4104b474: "orr.w r4, r1, r3, lsl
+ [18:29:45 879] Trace Instruction [libsecuritybody.so 0x0c479] [13f0c0f9] 0x4104b478: "bl #0x4105e7fc"
+ [18:29:45 880] Trace Instruction [libsecuritybody.so 0x1f7fd] [f0b5    ] 0x4105e7fc: "push {r4, r5, r6, r7, lr}" sp=0xbfffefe8 r4=0x80 r5=0x402e9700 r6=0x0 r7=0xbffff258 lr=0x4104b47d
+  0x0c49f] [44eac600] 0x4104b49e: "orr.w r0, r4, r6, lsl
+  0x0c4a7] [45f8540c] 0x4104b4a6: "str r0, [r5, #-0x54]"
+  0xbffff000中拿r1 0xbffff004拿r0
+  orr.w r1, r0, r1, lsl
+  "mov r5, r1" r1=0x80
+ "strb r5, [r1, r0]"
+
+调查 sgsafetoken_in 的aes解密
+跑一段 shr 发现是有读取的
+shr base64 以后的结果
+base64 decode 以后的
+Heap matches: RW@0x40742000
+Heap matches: RW@0x40742300
+
+0000: 43 B3 0B FC E9 0B 12 96 98 61 31 5B 89 E1 FD 2B    C........a1[...+
+0010: C4 3E 54 FF 15 CF 45 7F E8 5C E7 27 39 70 3D 34    .>T...E..\.'9p=4
+0020: 34 E6 11 3B 01 08 F7 8F BE 1B 54 91 88 81 D0 FE    4..;......T.....
+0030: FE 52 F6 C2 12 81 16 5C D1 03 CB 76 D2 E8 9D 7C    .R.....\...v...|
+0040: 28 5A 9F E8 1B 76 33 A1 03 8E D3 21 E1 E7 16 7C    (Z...v3....!...|
+0050: FC DF 66 EF 6C AF 02 E7 01 5C 89 5E 4F 23 C2 1B    ..f.l....\.^O#..
+0060: 74 1B 07 1E DE 4D BC 75 60 58 D7 80 16 B1 37 8F    t....M.u`X....7.
+
+trace 0x40742300 找到对应的aes解密函数a0084
+同时获取key= iv =86e101cb117e3c55 key要转置

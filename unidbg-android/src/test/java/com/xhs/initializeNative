@@ -1,0 +1,148 @@
+int __fastcall sub_6C11C(JNIEnv *a1)
+{
+  int v2; // r0
+  int v3; // r0
+  int v4; // r0
+  int v5; // r0
+  int v6; // r0
+  void *v7; // r5
+  int v8; // r0
+  __int64 v9; // kr00_8
+  _jfieldID *v10; // r8
+  _jfieldID *v11; // r6
+  jobject v12; // r8
+  jint v13; // r10
+  const char *v14; // r11
+  jsize v15; // r0
+  jstring v16; // r6
+  jstring v17; // r0
+  jstring v18; // r5
+  jstring v19; // r5
+  jstring v20; // r5
+  int v21; // r0
+  int v22; // r0
+  void *v24; // [sp+Ch] [bp-2A4h] BYREF
+  void *v25; // [sp+14h] [bp-29Ch]
+  void *v26; // [sp+18h] [bp-298h]
+  void *v27; // [sp+20h] [bp-290h]
+  void *v28; // [sp+24h] [bp-28Ch]
+  void *v29; // [sp+28h] [bp-288h]
+  void *v30; // [sp+2Ch] [bp-284h]
+  void *v31; // [sp+30h] [bp-280h]
+  void *v32; // [sp+34h] [bp-27Ch]
+  void *v33; // [sp+38h] [bp-278h]
+  void *v34; // [sp+3Ch] [bp-274h]
+  void *v35; // [sp+40h] [bp-270h]
+  void *v36; // [sp+44h] [bp-26Ch]
+  void *v37; // [sp+48h] [bp-268h]
+  void *v38; // [sp+4Ch] [bp-264h]
+  void *v39; // [sp+50h] [bp-260h]
+  int v40; // [sp+58h] [bp-258h]
+  int v41; // [sp+5Ch] [bp-254h]
+  char v42[504]; // [sp+78h] [bp-238h] BYREF
+  char v43[32]; // [sp+270h] [bp-40h] BYREF
+  int v44; // [sp+290h] [bp-20h]
+
+  v2 = sub_998C(_stack_chk_guard);
+  v3 = sub_9F68(&v24, v2);
+  v4 = sub_998C(v3);
+  v5 = sub_9E84(v4, a1, v40);
+  v6 = sub_98C0(v5);
+  sub_9938(v6);
+  dword_890C0 = (int)(*a1)->GetMethodID(
+                       a1,
+                       v24,
+                       "getSharedPreferences",
+                       "(Ljava/lang/String;I)Landroid/content/SharedPreferences;");
+  dword_890C4 = (int)(*a1)->GetMethodID(a1, v25, "edit", "()Landroid/content/SharedPreferences$Editor;");
+  dword_890D0 = (int)(*a1)->GetMethodID(
+                       a1,
+                       v25,
+                       "getString",
+                       "(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;");
+  dword_890C8 = (int)(*a1)->GetMethodID(
+                       a1,
+                       v26,
+                       "putString",
+                       "(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;");
+  dword_890CC = (int)(*a1)->GetMethodID(a1, v26, "commit", &dword_6C808);
+  dword_890D4 = (int)(*a1)->GetMethodID(a1, v35, "request", "()Lokhttp3/Request;");
+  dword_890D8 = (int)(*a1)->GetMethodID(a1, v35, "proceed", "(Lokhttp3/Request;)Lokhttp3/Response;");
+  dword_890DC = (int)(*a1)->GetMethodID(a1, v27, &dword_6C82C, "()Lokhttp3/HttpUrl;");
+  dword_890E0 = (int)(*a1)->GetMethodID(a1, v27, "newBuilder", "()Lokhttp3/Request$Builder;");
+  dword_890E4 = (int)(*a1)->GetMethodID(
+                       a1,
+                       v29,
+                       "header",
+                       "(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;");
+  dword_890E8 = (int)(*a1)->GetMethodID(a1, v29, "build", "()Lokhttp3/Request;");
+  dword_890EC = (int)(*a1)->GetMethodID(a1, v32, "writeTo", "(Lokio/BufferedSink;)V");
+  dword_890F0 = (int)(*a1)->GetMethodID(a1, v28, "code", &dword_6C864);
+  dword_890F4 = (int)(*a1)->GetMethodID(a1, v28, "body", "()Lokhttp3/ResponseBody;");
+  dword_89100 = (int)(*a1)->GetMethodID(a1, v28, "close", &dword_6C87C);
+  dword_890FC = (int)(*a1)->GetMethodID(a1, v28, "header", "(Ljava/lang/String;)Ljava/lang/String;");
+  dword_890F8 = (int)(*a1)->GetMethodID(a1, v30, "string", "()Ljava/lang/String;");
+  dword_89104 = (int)(*a1)->GetMethodID(a1, v31, "encodedPath", "()Ljava/lang/String;");
+  dword_89108 = (int)(*a1)->GetMethodID(a1, v31, "encodedQuery", "()Ljava/lang/String;");
+  dword_8910C = (int)(*a1)->GetMethodID(a1, v27, "body", "()Lokhttp3/RequestBody;");
+  dword_89110 = (int)(*a1)->GetMethodID(a1, v27, "headers", "()Lokhttp3/Headers;");
+  dword_89114 = (int)(*a1)->GetMethodID(a1, v33, "values", "(Ljava/lang/String;)Ljava/util/List;");
+  dword_89118 = (int)(*a1)->GetMethodID(a1, v33, "size", &dword_6C864);
+  dword_8911C = (int)(*a1)->GetMethodID(a1, v33, "name", "(I)Ljava/lang/String;");
+  dword_89120 = (int)(*a1)->GetMethodID(a1, v33, "value", "(I)Ljava/lang/String;");
+  dword_89124 = (int)(*a1)->GetMethodID(a1, v36, &dword_6C8E8, "(I)Ljava/lang/Object;");
+  dword_8912C = (int)(*a1)->GetMethodID(a1, v34, "<init>", &dword_6C87C);
+  dword_89130 = (int)(*a1)->GetMethodID(
+                       a1,
+                       v34,
+                       "writeString",
+                       "(Ljava/lang/String;Ljava/nio/charset/Charset;)Lokio/Buffer;");
+  dword_89134 = (int)(*a1)->GetMethodID(a1, v34, "readByteArray", "()[B");
+  dword_89138 = (int)(*a1)->GetMethodID(a1, v34, "read", "([B)I");
+  dword_8913C = (int)(*a1)->GetMethodID(a1, v34, "close", &dword_6C87C);
+  dword_89140 = (int)(*a1)->GetMethodID(a1, v34, "clone", "()Lokio/Buffer;");
+  dword_89128 = (int)(*a1)->GetMethodID(a1, v36, "isEmpty", &dword_6C808);
+  dword_89144 = (int)(*a1)->GetStaticMethodID(a1, v37, "defaultCharset", "()Ljava/nio/charset/Charset;");
+  v7 = (void *)CallStaticObjectMethodV(a1, v37, dword_89144, "()Ljava/nio/charset/Charset;");
+  dword_89150 = (int)(*a1)->NewGlobalRef(a1, v7);
+  v8 = ((int (__fastcall *)(JNIEnv *, void *))(*a1)->DeleteLocalRef)(a1, v7);
+  v9 = sub_AE64(v8);
+  v10 = (*a1)->GetStaticFieldID(a1, v38, "sDeviceId", "Ljava/lang/String;");
+  v11 = (*a1)->GetStaticFieldID(a1, v38, "sAppId", "I");
+  base64decode = (int)(*a1)->GetStaticMethodID(a1, v39, "decode", "(Ljava/lang/String;)[B");
+  dword_89148 = (int)(*a1)->GetStaticMethodID(a1, v39, "encodeToString", "([B)Ljava/lang/String;");
+  v12 = (*a1)->GetStaticObjectField(a1, v38, v10);
+  v13 = (*a1)->GetStaticIntField(a1, v38, v11);
+  v14 = (*a1)->GetStringUTFChars(a1, v12, 0);
+  v15 = (*a1)->GetStringUTFLength(a1, v12);
+  sub_58FB8(v42, v14, v15, v43);
+  sub_575F0(&dword_89160, v42);
+  sub_56E64(v42);
+  deviceid = (int)(*a1)->NewGlobalRef(a1, v12);
+  dword_89158 = v13;
+  memset(v43, 0, sizeof(v43));
+  sprintf(v43, "%lld", v9);
+  v16 = (*a1)->NewStringUTF(a1, v43);
+  sub_5928C((int)v42, v43);
+  sub_575F0(&dword_89164, v42);
+  sub_56E64(v42);
+  dword_8915C = (int)(*a1)->NewGlobalRef(a1, v16);
+  memset(v42, 0, 0x1F4u);
+  sprintf(v42, "platform=android&build=%lld&deviceId=%s", v9, v14);
+  (*a1)->ReleaseStringUTFChars(a1, v12, v14);
+  (*a1)->DeleteLocalRef(a1, v12);
+  v17 = (*a1)->NewStringUTF(a1, "xy-ter-str");
+  dword_89174 = (int)(*a1)->NewGlobalRef(a1, v17);
+  v18 = (*a1)->NewStringUTF(a1, v42);
+  dword_89170 = (int)(*a1)->NewGlobalRef(a1, v18);
+  (*a1)->DeleteLocalRef(a1, v18);
+  v19 = (*a1)->NewStringUTF(a1, "xy-platform-info");
+  dword_8916C = (int)(*a1)->NewGlobalRef(a1, v19);
+  (*a1)->DeleteLocalRef(a1, v19);
+  v20 = (*a1)->NewStringUTF(a1, "shield");
+  dword_89168 = (int)(*a1)->NewGlobalRef(a1, v20);
+  v21 = ((int (__fastcall *)(JNIEnv *, jstring))(*a1)->DeleteLocalRef)(a1, v20);
+  v22 = sub_998C(v21);
+  sub_9E84(v22, a1, v41);
+  return _stack_chk_guard - v44;
+}

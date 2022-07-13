@@ -1,0 +1,1245 @@
+"C:\Program Files\Java\jdk-15.0.2\bin\java.exe" "-javaagent:D:\JetBrains\IntelliJ IDEA Community Edition 2020.3.3\lib\idea_rt.jar=51645:D:\JetBrains\IntelliJ IDEA Community Edition 2020.3.3\bin" -Dfile.encoding=UTF-8 -classpath D:\unidbg-master-11-30\unidbg-master\unidbg-android\target\test-classes;D:\unidbg-master-11-30\unidbg-master\unidbg-android\target\classes;D:\unidbg-master-11-30\unidbg-master\unidbg-api\target\classes;C:\Users\Administrator\.m2\repository\com\github\zhkl0228\unicorn\1.0.12\unicorn-1.0.12.jar;C:\Users\Administrator\.m2\repository\org\scijava\native-lib-loader\2.3.5\native-lib-loader-2.3.5.jar;C:\Users\Administrator\.m2\repository\com\github\zhkl0228\capstone\3.1.2\capstone-3.1.2.jar;C:\Users\Administrator\.m2\repository\com\github\zhkl0228\keystone\0.9.6\keystone-0.9.6.jar;C:\Users\Administrator\.m2\repository\com\github\zhkl0228\jna_silicon\4.5.2-1\jna_silicon-4.5.2-1.jar;C:\Users\Administrator\.m2\repository\net\java\dev\jna\jna\4.5.2\jna-4.5.2.jar;C:\Users\Administrator\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Administrator\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\Administrator\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Users\Administrator\.m2\repository\com\alibaba\fastjson\1.2.60\fastjson-1.2.60.jar;C:\Users\Administrator\.m2\repository\com\github\zhkl0228\demumble\1.0.2\demumble-1.0.2.jar;C:\Users\Administrator\.m2\repository\net\dongliu\apk-parser\2.6.4\apk-parser-2.6.4.jar;D:\unidbg-master-11-30\unidbg-master\backend\dynarmic\target\classes;D:\unidbg-master-11-30\unidbg-master\backend\hypervisor\target\classes;D:\unidbg-master-11-30\unidbg-master\backend\kvm\target\classes;D:\unidbg-master-11-30\unidbg-master\backend\unicorn2\target\classes;C:\Users\Administrator\.m2\repository\com\squareup\okhttp3\okhttp\3.14.2\okhttp-3.14.2.jar;C:\Users\Administrator\.m2\repository\com\squareup\okio\okio\1.17.2\okio-1.17.2.jar;C:\Users\Administrator\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Administrator\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\Administrator\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-api\1.7.26\slf4j-api-1.7.26.jar;C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-log4j12\1.7.26\slf4j-log4j12-1.7.26.jar com.xsign.TianMaoXSign1
+resolve.pathname: /dev/__properties__
+File opened '/dev/__properties__' with oflags=0xa8000 from RX@0x4019de75[libc.so]0x1be75
+File closed '/dev/__properties__' from RX@0x4019bfe1[libc.so]0x19fe1
+fuckkey:ro.kernel.qemu
+fuckkey:libc.debug.malloc
+resolve.pathname: /proc/stat
+File opened '/proc/stat' with oflags=0xa0000 from RX@0x4019de75[libc.so]0x1be75
+Read 1871 bytes from '/proc/stat'
+Read 0 bytes from '/proc/stat'
+File closed '/proc/stat' from RX@0x4019bfe1[libc.so]0x19fe1
+libsgmainso base 1073741824
+JNIEnv->FindClass(java/lang/Boolean) was called from RX@0x400b5121[libmain.so]0xb5121
+JNIEnv->NewGlobalRef(class java/lang/Boolean) was called from RX@0x400b512b[libmain.so]0xb512b
+JNIEnv->FindClass(java/lang/Integer) was called from RX@0x400b513b[libmain.so]0xb513b
+JNIEnv->NewGlobalRef(class java/lang/Integer) was called from RX@0x400b5145[libmain.so]0xb5145
+JNIEnv->FindClass(java/lang/String) was called from RX@0x400b5155[libmain.so]0xb5155
+JNIEnv->NewGlobalRef(class java/lang/String) was called from RX@0x400b515f[libmain.so]0xb515f
+JNIEnv->FindClass(com/taobao/wireless/security/adapter/common/HttpUtil) was called from RX@0x400ac683[libmain.so]0xac683
+JNIEnv->NewGlobalRef(class com/taobao/wireless/security/adapter/common/HttpUtil) was called from RX@0x400ac6a9[libmain.so]0xac6a9
+JNIEnv->GetStaticMethodID(com/taobao/wireless/security/adapter/common/HttpUtil.sendSyncHttpGetRequestBridge(Ljava/lang/String;)Ljava/lang/String;) => 0x98ce33dc was called from RX@0x400ac6dd[libmain.so]0xac6dd
+JNIEnv->GetStaticMethodID(com/taobao/wireless/security/adapter/common/HttpUtil.sendSyncHttpPostRequestBridge(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;II)Ljava/lang/String;) => 0x1899004c was called from RX@0x400ac70d[libmain.so]0xac70d
+JNIEnv->GetStaticMethodID(com/taobao/wireless/security/adapter/common/HttpUtil.downloadFileBridge(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;) => 0x61c479d2 was called from RX@0x400ac739[libmain.so]0xac739
+JNIEnv->FindClass(com/taobao/wireless/security/adapter/umid/UmidAdapter) was called from RX@0x400accb7[libmain.so]0xaccb7
+JNIEnv->NewGlobalRef(class com/taobao/wireless/security/adapter/umid/UmidAdapter) was called from RX@0x400acd55[libmain.so]0xacd55
+JNIEnv->GetStaticMethodID(com/taobao/wireless/security/adapter/umid/UmidAdapter.umidInitAdapter(I)I) => 0xfa1f654b was called from RX@0x400acd8b[libmain.so]0xacd8b
+JNIEnv->FindClass(com/taobao/wireless/security/adapter/JNICLibrary) was called from RX@0x4000ff0d[libmain.so]0xff0d
+JNIEnv->FindClass(com/taobao/wireless/security/adapter/common/SPUtility2) was called from RX@0x400ab443[libmain.so]0xab443
+JNIEnv->NewGlobalRef(class com/taobao/wireless/security/adapter/common/SPUtility2) was called from RX@0x400ab4a1[libmain.so]0xab4a1
+JNIEnv->GetStaticMethodID(com/taobao/wireless/security/adapter/common/SPUtility2.readFromSPUnified(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;) => 0x4460211b was called from RX@0x400ab4db[libmain.so]0xab4db
+JNIEnv->GetStaticMethodID(com/taobao/wireless/security/adapter/common/SPUtility2.saveToFileUnifiedForNative(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)I) => 0xda288bd was called from RX@0x400ab509[libmain.so]0xab509
+JNIEnv->GetStaticMethodID(com/taobao/wireless/security/adapter/common/SPUtility2.removeFromSPUnified(Ljava/lang/String;Ljava/lang/String;Z)Z) => 0xa9b104af was called from RX@0x400ab533[libmain.so]0xab533
+JNIEnv->GetStaticMethodID(com/taobao/wireless/security/adapter/common/SPUtility2.writeSS(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Z) => 0x5f9b0263 was called from RX@0x400ab571[libmain.so]0xab571
+JNIEnv->GetStaticMethodID(com/taobao/wireless/security/adapter/common/SPUtility2.readSS(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;) => 0xa10ab0a6 was called from RX@0x400ab5a3[libmain.so]0xab5a3
+JNIEnv->GetStaticMethodID(com/taobao/wireless/security/adapter/common/SPUtility2.read(Ljava/lang/String;)Ljava/lang/String;) => 0x3f3edc9e was called from RX@0x400ab5fd[libmain.so]0xab5fd
+JNIEnv->GetStaticMethodID(com/taobao/wireless/security/adapter/common/SPUtility2.write(Ljava/lang/String;Ljava/lang/String;)V) => 0xe2c4b291 was called from RX@0x400ab6ab[libmain.so]0xab6ab
+JNIEnv->FindClass(com/taobao/wireless/security/adapter/datacollection/DeviceInfoCapturer) was called from RX@0x40013ca3[libmain.so]0x13ca3
+JNIEnv->NewGlobalRef(class com/taobao/wireless/security/adapter/datacollection/DeviceInfoCapturer) was called from RX@0x40013cb1[libmain.so]0x13cb1
+JNIEnv->GetStaticMethodID(com/taobao/wireless/security/adapter/datacollection/DeviceInfoCapturer.doCommandForString(I)Ljava/lang/String;) => 0x5c4bcf61 was called from RX@0x40013ce5[libmain.so]0x13ce5
+=====================get currentTimeMillis 1651633394998
+JNIEnv->FindClass(com/taobao/wireless/security/adapter/datareport/DataReportJniBridge) was called from RX@0x40017f6d[libmain.so]0x17f6d
+JNIEnv->NewGlobalRef(class com/taobao/wireless/security/adapter/datareport/DataReportJniBridge) was called from RX@0x40017f79[libmain.so]0x17f79
+JNIEnv->GetStaticMethodID(com/taobao/wireless/security/adapter/datareport/DataReportJniBridge.sendReportBridge(Ljava/lang/String;Ljava/lang/String;[B)Ljava/lang/String;) => 0x5cfa8256 was called from RX@0x40017fa1[libmain.so]0x17fa1
+JNIEnv->FindClass(com/taobao/wireless/security/adapter/datareport/DataReportJniBridge) was called from RX@0x4002291f[libmain.so]0x2291f
+JNIEnv->NewGlobalRef(class com/taobao/wireless/security/adapter/datareport/DataReportJniBridge) was called from RX@0x400229b3[libmain.so]0x229b3
+JNIEnv->GetStaticMethodID(com/taobao/wireless/security/adapter/datareport/DataReportJniBridge.sendReportBridgeHttps(Ljava/lang/String;Ljava/lang/String;[B)Ljava/lang/String;) => 0x794eda95 was called from RX@0x400229e9[libmain.so]0x229e9
+JNIEnv->GetStaticMethodID(com/taobao/wireless/security/adapter/datareport/DataReportJniBridge.mtopAvaiableBridge()I) => 0x264e987f was called from RX@0x40022a2b[libmain.so]0x22a2b
+JNIEnv->GetStaticMethodID(com/taobao/wireless/security/adapter/datareport/DataReportJniBridge.sendReportBridgeMtop(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;[B)Ljava/lang/String;) => 0x75504e79 was called from RX@0x40022a59[libmain.so]0x22a59
+JNIEnv->FindClass(java/util/HashMap) was called from RX@0x40022abd[libmain.so]0x22abd
+JNIEnv->NewGlobalRef(class java/util/HashMap) was called from RX@0x40022b35[libmain.so]0x22b35
+JNIEnv->GetMethodID(java/util/HashMap.<init>()V) => 0xa7b3cd64 was called from RX@0x40022b5d[libmain.so]0x22b5d
+JNIEnv->GetMethodID(java/util/HashMap.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;) => 0xb4fbf295 was called from RX@0x40022b79[libmain.so]0x22b79
+JNIEnv->FindClass(com/taobao/wireless/security/adapter/datareport/DataReportJniBridge) was called from RX@0x4002623f[libmain.so]0x2623f
+JNIEnv->NewGlobalRef(class com/taobao/wireless/security/adapter/datareport/DataReportJniBridge) was called from RX@0x400262af[libmain.so]0x262af
+JNIEnv->GetStaticMethodID(com/taobao/wireless/security/adapter/datareport/DataReportJniBridge.accsAvaiableBridge()I) => 0xd71ceb75 was called from RX@0x400262fb[libmain.so]0x262fb
+JNIEnv->GetStaticMethodID(com/taobao/wireless/security/adapter/datareport/DataReportJniBridge.registerAccsListnerBridge()I) => 0xec1783b8 was called from RX@0x40026341[libmain.so]0x26341
+JNIEnv->GetStaticMethodID(com/taobao/wireless/security/adapter/datareport/DataReportJniBridge.orangeAvailableBridge()I) => 0x692ab285 was called from RX@0x4002637f[libmain.so]0x2637f
+JNIEnv->GetStaticMethodID(com/taobao/wireless/security/adapter/datareport/DataReportJniBridge.registerOrangeListenerBridge()I) => 0x764fadd9 was called from RX@0x400263bd[libmain.so]0x263bd
+=====================get currentTimeMillis 1651633395007
+=====================get currentTimeMillis 1651633395008
+=====================get currentTimeMillis 1651633395009
+=====================get currentTimeMillis 1651633395009
+=====================get currentTimeMillis 1651633395010
+JNIEnv->FindClass(android/content/Context) was called from RX@0x400bca3b[libmain.so]0xbca3b
+JNIEnv->GetMethodID(android/content/Context.getPackageManager()Landroid/content/pm/PackageManager;) => 0x3acc78f0 was called from RX@0x400bc981[libmain.so]0xbc981
+JNIEnv->GetMethodID(android/content/Context.getContentResolver()Landroid/content/ContentResolver;) => 0x3fe770ea was called from RX@0x400bc981[libmain.so]0xbc981
+JNIEnv->GetMethodID(android/content/Context.getSystemService(Ljava/lang/String;)Ljava/lang/Object;) => 0x545bcf2d was called from RX@0x400bc981[libmain.so]0xbc981
+JNIEnv->GetStaticFieldID(android/content/Context.WIFI_SERVICELjava/lang/String;) => 0xcbe3186f was called from RX@0x400bc981[libmain.so]0xbc981
+JNIEnv->NewGlobalRef(class android/content/Context) was called from RX@0x400bc911[libmain.so]0xbc911
+JNIEnv->FindClass(android/content/pm/PackageManager) was called from RX@0x400bca3b[libmain.so]0xbca3b
+JNIEnv->GetMethodID(android/content/pm/PackageManager.getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;) => 0x3bca8377 was called from RX@0x400bc981[libmain.so]0xbc981
+JNIEnv->FindClass(android/content/pm/PackageInfo) was called from RX@0x400bca3b[libmain.so]0xbca3b
+JNIEnv->GetFieldID(android/content/pm/PackageInfo.applicationInfo Landroid/content/pm/ApplicationInfo;) => 0xb287dbb2 was called from RX@0x400bc981[libmain.so]0xbc981
+JNIEnv->GetFieldID(android/content/pm/PackageInfo.firstInstallTime J) => 0x215b0bd1 was called from RX@0x400bc981[libmain.so]0xbc981
+JNIEnv->GetFieldID(android/content/pm/PackageInfo.lastUpdateTime J) => 0xb7c07d45 was called from RX@0x400bc981[libmain.so]0xbc981
+JNIEnv->FindClass(android/content/pm/ApplicationInfo) was called from RX@0x400bca3b[libmain.so]0xbca3b
+JNIEnv->GetFieldID(android/content/pm/ApplicationInfo.flags I) => 0xd8f8f0a3 was called from RX@0x400bc981[libmain.so]0xbc981
+JNIEnv->FindClass(android/provider/Settings$Secure) was called from RX@0x400bca3b[libmain.so]0xbca3b
+JNIEnv->GetStaticMethodID(android/provider/Settings$Secure.getString(Landroid/content/ContentResolver;Ljava/lang/String;)Ljava/lang/String;) => 0x3efce417 was called from RX@0x400bc981[libmain.so]0xbc981
+JNIEnv->NewGlobalRef(class android/provider/Settings$Secure) was called from RX@0x400bc911[libmain.so]0xbc911
+JNIEnv->FindClass(java/util/List) was called from RX@0x400bca3b[libmain.so]0xbca3b
+JNIEnv->GetMethodID(java/util/List.get(I)Ljava/lang/Object;) => 0x143bf95d was called from RX@0x400bc981[libmain.so]0xbc981
+JNIEnv->GetMethodID(java/util/List.size()I) => 0x8fe82bb8 was called from RX@0x400bc981[libmain.so]0xbc981
+JNIEnv->FindClass(android/net/wifi/WifiConfiguration) was called from RX@0x400bca3b[libmain.so]0xbca3b
+JNIEnv->GetFieldID(android/net/wifi/WifiConfiguration.SSID Ljava/lang/String;) => 0x4def071f was called from RX@0x400bc981[libmain.so]0xbc981
+JNIEnv->GetFieldID(android/net/wifi/WifiConfiguration.networkId I) => 0x5ff173ae was called from RX@0x400bc981[libmain.so]0xbc981
+JNIEnv->GetFieldID(android/net/wifi/WifiConfiguration.providerFriendlyName Ljava/lang/String;) => 0x154e34b3 was called from RX@0x400bc981[libmain.so]0xbc981
+JNIEnv->GetFieldID(android/net/wifi/WifiConfiguration.BSSID Ljava/lang/String;) => 0x35f46ff1 was called from RX@0x400bc981[libmain.so]0xbc981
+JNIEnv->GetFieldID(android/net/wifi/WifiConfiguration.FQDN Ljava/lang/String;) => 0x49b45dc5 was called from RX@0x400bc981[libmain.so]0xbc981
+JNIEnv->GetFieldID(android/net/wifi/WifiConfiguration.priority I) => 0x38e2467d was called from RX@0x400bc981[libmain.so]0xbc981
+JNIEnv->GetFieldID(android/net/wifi/WifiConfiguration.hiddenSSID Z) => 0x73226a4f was called from RX@0x400bc981[libmain.so]0xbc981
+JNIEnv->NewGlobalRef(class android/net/wifi/WifiConfiguration) was called from RX@0x400bc911[libmain.so]0xbc911
+JNIEnv->FindClass(android/net/wifi/WifiManager) was called from RX@0x400bca3b[libmain.so]0xbca3b
+JNIEnv->GetMethodID(android/net/wifi/WifiManager.getConfiguredNetworks()Ljava/util/List;) => 0x68a41eea was called from RX@0x400bc981[libmain.so]0xbc981
+JNIEnv->GetMethodID(android/net/wifi/WifiManager.getDhcpInfo()Landroid/net/DhcpInfo;) => 0x8776b473 was called from RX@0x400bc981[libmain.so]0xbc981
+JNIEnv->FindClass(android/net/DhcpInfo) was called from RX@0x400bca3b[libmain.so]0xbca3b
+JNIEnv->GetFieldID(android/net/DhcpInfo.gateway I) => 0xb8988131 was called from RX@0x400bc981[libmain.so]0xbc981
+=====================get currentTimeMillis 1651633395024
+=====================get currentTimeMillis 1651633395024
+=====================get currentTimeMillis 1651633395025
+=====================get currentTimeMillis 1651633395025
+=====================get currentTimeMillis 1651633395025
+JNIEnv->FindClass(com/taobao/dp/util/ZipUtils) was called from RX@0x4003823f[libmain.so]0x3823f
+JNIEnv->NewGlobalRef(class com/taobao/dp/util/ZipUtils) was called from RX@0x4003824d[libmain.so]0x3824d
+JNIEnv->GetStaticMethodID(com/taobao/dp/util/ZipUtils.unZip([B)[B) => 0x36b15a6b was called from RX@0x40038271[libmain.so]0x38271
+JNIEnv->FindClass(com/taobao/dp/util/CallbackHelper) was called from RX@0x40038283[libmain.so]0x38283
+JNIEnv->NewGlobalRef(class com/taobao/dp/util/CallbackHelper) was called from RX@0x40038291[libmain.so]0x38291
+JNIEnv->FindClass(android/content/Context) was called from RX@0x4003839f[libmain.so]0x3839f
+JNIEnv->NewGlobalRef(class android/content/Context) was called from RX@0x400383ab[libmain.so]0x383ab
+JNIEnv->GetMethodID(android/content/Context.getPackageManager()Landroid/content/pm/PackageManager;) => 0x3acc78f0 was called from RX@0x400383c3[libmain.so]0x383c3
+JNIEnv->FindClass(android/content/pm/PackageManager) was called from RX@0x400383d3[libmain.so]0x383d3
+JNIEnv->NewGlobalRef(class android/content/pm/PackageManager) was called from RX@0x400383df[libmain.so]0x383df
+JNIEnv->GetMethodID(android/content/pm/PackageManager.getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;) => 0x3bca8377 was called from RX@0x400383f9[libmain.so]0x383f9
+JNIEnv->FindClass(android/content/pm/PackageInfo) was called from RX@0x40038409[libmain.so]0x38409
+JNIEnv->NewGlobalRef(class android/content/pm/PackageInfo) was called from RX@0x40038415[libmain.so]0x38415
+JNIEnv->GetFieldID(android/content/pm/PackageInfo.applicationInfo Landroid/content/pm/ApplicationInfo;) => 0xb287dbb2 was called from RX@0x4003842f[libmain.so]0x3842f
+JNIEnv->GetFieldID(android/content/pm/PackageInfo.firstInstallTime J) => 0x215b0bd1 was called from RX@0x4003844b[libmain.so]0x3844b
+JNIEnv->GetFieldID(android/content/pm/PackageInfo.lastUpdateTime J) => 0xb7c07d45 was called from RX@0x40038461[libmain.so]0x38461
+JNIEnv->FindClass(android/content/pm/ApplicationInfo) was called from RX@0x40038471[libmain.so]0x38471
+JNIEnv->NewGlobalRef(class android/content/pm/ApplicationInfo) was called from RX@0x4003847d[libmain.so]0x3847d
+JNIEnv->GetFieldID(android/content/pm/ApplicationInfo.flags I) => 0xd8f8f0a3 was called from RX@0x40038495[libmain.so]0x38495
+JNIEnv->FindClass(android/os/Environment) was called from RX@0x400399c1[libmain.so]0x399c1
+JNIEnv->NewGlobalRef(class android/os/Environment) was called from RX@0x400399cf[libmain.so]0x399cf
+JNIEnv->GetStaticMethodID(android/os/Environment.getExternalStorageDirectory()Ljava/io/File;) => 0x57b36412 was called from RX@0x400399f1[libmain.so]0x399f1
+JNIEnv->FindClass(java/io/File) was called from RX@0x40039a07[libmain.so]0x39a07
+JNIEnv->NewGlobalRef(class java/io/File) was called from RX@0x40039a15[libmain.so]0x39a15
+JNIEnv->GetMethodID(java/io/File.getAbsolutePath()Ljava/lang/String;) => 0xb4553f34 was called from RX@0x40039a37[libmain.so]0x39a37
+JNIEnv->FindClass(android/content/Context) was called from RX@0x40039a4d[libmain.so]0x39a4d
+JNIEnv->NewGlobalRef(class android/content/Context) was called from RX@0x40039ab5[libmain.so]0x39ab5
+fuckkey:ro.build.version.sdk
+JNIEnv->GetMethodID(android/content/Context.checkSelfPermission(Ljava/lang/String;)I) => 0xf180a439 was called from RX@0x40039b23[libmain.so]0x39b23
+=====================get currentTimeMillis 1651633395038
+JNIEnv->FindClass(com/alibaba/wireless/security/open/umid/UMIDComponent) was called from RX@0x4003878b[libmain.so]0x3878b
+JNIEnv->NewGlobalRef(class com/alibaba/wireless/security/open/umid/UMIDComponent) was called from RX@0x40038753[libmain.so]0x38753
+JNIEnv->GetStaticMethodID(com/alibaba/wireless/security/open/umid/UMIDComponent.sendUmidChangedNotification(Ljava/lang/String;I)V) => 0x59b354a3 was called from RX@0x400387f5[libmain.so]0x387f5
+=====================get currentTimeMillis 1651633395040
+JNIEnv->FindClass(com/alibaba/wireless/security/mainplugin/SecurityGuardMainPlugin) was called from RX@0x40058a51[libmain.so]0x58a51
+JNIEnv->GetStaticMethodID(com/alibaba/wireless/security/mainplugin/SecurityGuardMainPlugin.getMainPluginClassLoader()Ljava/lang/ClassLoader;) => 0xcc338928 was called from RX@0x40058a87[libmain.so]0x58a87
+JNIEnv->CallStaticObjectMethod(class com/alibaba/wireless/security/mainplugin/SecurityGuardMainPlugin, getMainPluginClassLoader() => java.lang.ClassLoader@70beb599) was called from RX@0x40058a9b[libmain.so]0x58a9b
+JNIEnv->NewGlobalRef(java.lang.ClassLoader@70beb599) was called from RX@0x40058aab[libmain.so]0x58aab
+JNIEnv->GetMethodID(java/lang/ClassLoader.findClass(Ljava/lang/String;)Ljava/lang/Class;) => 0xb1fafbf5 was called from RX@0x40058b35[libmain.so]0x58b35
+JNIEnv->GetMethodID(java/lang/ClassLoader.getParent()Ljava/lang/ClassLoader) => 0x2b19c224 was called from RX@0x40058bed[libmain.so]0x58bed
+JNIEnv->FindClass(com/alibaba/wireless/security/open/edgecomputing/ECMiscInfo) was called from RX@0x400584a9[libmain.so]0x584a9
+JNIEnv->NewGlobalRef(class com/alibaba/wireless/security/open/edgecomputing/ECMiscInfo) was called from RX@0x40058503[libmain.so]0x58503
+JNIEnv->GetStaticMethodID(com/alibaba/wireless/security/open/edgecomputing/ECMiscInfo.getLastAppVersion()Ljava/lang/String;) => 0xb59faec7 was called from RX@0x40058541[libmain.so]0x58541
+JNIEnv->GetStaticMethodID(com/alibaba/wireless/security/open/edgecomputing/ECMiscInfo.getAppFirstRunState()Z) => 0x797a1d75 was called from RX@0x40058573[libmain.so]0x58573
+JNIEnv->GetStaticMethodID(com/alibaba/wireless/security/open/edgecomputing/ECMiscInfo.updateAppVersion(Ljava/lang/String;)V) => 0xe5e505b8 was called from RX@0x400585cb[libmain.so]0x585cb
+JNIEnv->GetStaticMethodID(com/alibaba/wireless/security/open/edgecomputing/ECMiscInfo.updateAppFirstRunState()V) => 0xaa4d7730 was called from RX@0x4005866f[libmain.so]0x5866f
+JNIEnv->GetStaticMethodID(com/alibaba/wireless/security/open/edgecomputing/ECMiscInfo.registerAppLifeCyCleCallBack()V) => 0xdce5f89d was called from RX@0x400586bf[libmain.so]0x586bf
+JNIEnv->FindClass(com/alibaba/wireless/security/framework/utils/UserTrackMethodJniBridge) was called from RX@0x40029887[libmain.so]0x29887
+JNIEnv->NewGlobalRef(class com/alibaba/wireless/security/framework/utils/UserTrackMethodJniBridge) was called from RX@0x4002989b[libmain.so]0x2989b
+JNIEnv->GetStaticMethodID(com/alibaba/wireless/security/framework/utils/UserTrackMethodJniBridge.utAvaiable()I) => 0x5033ada6 was called from RX@0x400298e9[libmain.so]0x298e9
+JNIEnv->GetStaticMethodID(com/alibaba/wireless/security/framework/utils/UserTrackMethodJniBridge.addUtRecord(Ljava/lang/String;IILjava/lang/String;JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I) => 0xed0f3b25 was called from RX@0x40029955[libmain.so]0x29955
+JNIEnv->GetStaticMethodID(com/alibaba/wireless/security/framework/utils/UserTrackMethodJniBridge.getStackTrace(II)Ljava/lang/String;) => 0x525962b2 was called from RX@0x40029997[libmain.so]0x29997
+JNIEnv->RegisterNatives(com/taobao/wireless/security/adapter/JNICLibrary, unidbg@0xbffff698, 1) was called from RX@0x40010521[libmain.so]0x10521
+RegisterNative(com/taobao/wireless/security/adapter/JNICLibrary, doCommandNative(I[Ljava/lang/Object;)Ljava/lang/Object;, RX@0x40010269[libmain.so]0x10269)
+JNIEnv->FindClass(java/lang/Integer) was called from RX@0x400b6bff[libmain.so]0xb6bff
+JNIEnv->NewGlobalRef(class java/lang/Integer) was called from RX@0x400b6c0d[libmain.so]0xb6c0d
+JNIEnv->FindClass(java/lang/Float) was called from RX@0x400b6bff[libmain.so]0xb6bff
+JNIEnv->NewGlobalRef(class java/lang/Float) was called from RX@0x400b6c0d[libmain.so]0xb6c0d
+JNIEnv->FindClass(java/lang/String) was called from RX@0x400b6bff[libmain.so]0xb6bff
+JNIEnv->NewGlobalRef(class java/lang/String) was called from RX@0x400b6c0d[libmain.so]0xb6c0d
+JNIEnv->FindClass([B) was called from RX@0x400b6bff[libmain.so]0xb6bff
+JNIEnv->NewGlobalRef(class [B) was called from RX@0x400b6c0d[libmain.so]0xb6c0d
+JNIEnv->FindClass(java/util/HashMap) was called from RX@0x400b6bff[libmain.so]0xb6bff
+JNIEnv->NewGlobalRef(class java/util/HashMap) was called from RX@0x400b6c0d[libmain.so]0xb6c0d
+JNIEnv->FindClass(java/util/Set) was called from RX@0x400b6bff[libmain.so]0xb6bff
+JNIEnv->NewGlobalRef(class java/util/Set) was called from RX@0x400b6c0d[libmain.so]0xb6c0d
+JNIEnv->GetMethodID(java/util/HashMap.keySet()Ljava/util/Set;) => 0x876bbb62 was called from RX@0x400b6a3f[libmain.so]0xb6a3f
+JNIEnv->GetMethodID(java/util/HashMap.get(Ljava/lang/Object;)Ljava/lang/Object;) => 0x5862dfb8 was called from RX@0x400b6a5f[libmain.so]0xb6a5f
+JNIEnv->GetMethodID(java/util/HashMap.<init>(I)V) => 0x4ec6521f was called from RX@0x400b6a79[libmain.so]0xb6a79
+JNIEnv->GetMethodID(java/util/HashMap.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;) => 0xb4fbf295 was called from RX@0x400b6a95[libmain.so]0xb6a95
+JNIEnv->GetMethodID(java/util/Set.toArray()[Ljava/lang/Object;) => 0x910b56b was called from RX@0x400b6aaf[libmain.so]0xb6aaf
+Find native function Java_com_taobao_wireless_security_adapter_JNICLibrary_doCommandNative => RX@0x40010269[libmain.so]0x10269
+JNIEnv->GetObjectArrayElement([android.content.Context@282003e1, java.lang.Integer@7fad8c79, "", "/data/user/0/com.tmall.wireless/app_SGLib", ""], 0) => android.content.Context@282003e1 was called from RX@0x400107bf[libmain.so]0x107bf
+JNIEnv->NewGlobalRef(android.content.Context@282003e1) was called from RX@0x400b5297[libmain.so]0xb5297
+JNIEnv->GetObjectArrayElement([android.content.Context@282003e1, java.lang.Integer@7fad8c79, "", "/data/user/0/com.tmall.wireless/app_SGLib", ""], 1) => java.lang.Integer@7fad8c79 was called from RX@0x400b68e9[libmain.so]0xb68e9
+JNIEnv->GetMethodID(java/lang/Integer.intValue()I) => 0x5d9f068b was called from RX@0x400b5921[libmain.so]0xb5921
+JNIEnv->CallIntMethod(java.lang.Integer@7fad8c79, intValue() => 0x3) was called from RX@0x400107eb[libmain.so]0x107eb
+JNIEnv->GetMethodID(android/content/Context.getPackageCodePath()Ljava/lang/String;) => 0xc493eef7 was called from RX@0x4001130d[libmain.so]0x1130d
+JNIEnv->CallObjectMethod(android.content.Context@282003e1, getPackageCodePath() => "/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk") was called from RX@0x4001139b[libmain.so]0x1139b
+JNIEnv->GetStringUtfChars("/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk") was called from RX@0x400b537d[libmain.so]0xb537d
+JNIEnv->ReleaseStringUTFChars("/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk") was called from RX@0x400b53c7[libmain.so]0xb53c7
+JNIEnv->GetMethodID(android/content/Context.getFilesDir()Ljava/io/File;) => 0x26aff3ba was called from RX@0x400114e9[libmain.so]0x114e9
+JNIEnv->CallObjectMethod(android.content.Context@282003e1, getFilesDir() => class java/io/File) was called from RX@0x40011505[libmain.so]0x11505
+JNIEnv->GetMethodID(java/lang/Class.getAbsolutePath()Ljava/lang/String;) => 0x93642ca8 was called from RX@0x40011589[libmain.so]0x11589
+JNIEnv->CallObjectMethod(class java/io/File, getAbsolutePath() => "/data/user/0/com.tmall.wireless/files") was called from RX@0x40011549[libmain.so]0x11549
+JNIEnv->GetStringUtfChars("/data/user/0/com.tmall.wireless/files") was called from RX@0x400b537d[libmain.so]0xb537d
+JNIEnv->ReleaseStringUTFChars("/data/user/0/com.tmall.wireless/files") was called from RX@0x400b53c7[libmain.so]0xb53c7
+JNIEnv->GetMethodID(android/content/Context.getApplicationInfo()Landroid/content/pm/ApplicationInfo;) => 0xbfeda400 was called from RX@0x40011715[libmain.so]0x11715
+JNIEnv->CallObjectMethod(android.content.Context@282003e1, getApplicationInfo() => android.content.pm.ApplicationInfo@62fdb4a6) was called from RX@0x40011777[libmain.so]0x11777
+JNIEnv->GetFieldID(android/content/pm/ApplicationInfo.nativeLibraryDir Ljava/lang/String;) => 0x1fabc7e8 was called from RX@0x400117ed[libmain.so]0x117ed
+JNIEnv->GetObjectField(android.content.pm.ApplicationInfo@62fdb4a6, nativeLibraryDir Ljava/lang/String; => "/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/lib/arm") was called from RX@0x4001181f[libmain.so]0x1181f
+JNIEnv->GetStringUtfChars("/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/lib/arm") was called from RX@0x400b537d[libmain.so]0xb537d
+JNIEnv->ReleaseStringUTFChars("/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/lib/arm") was called from RX@0x400b53c7[libmain.so]0xb53c7
+JNIEnv->GetObjectArrayElement([android.content.Context@282003e1, java.lang.Integer@7fad8c79, "", "/data/user/0/com.tmall.wireless/app_SGLib", ""], 2) => "" was called from RX@0x400b68b1[libmain.so]0xb68b1
+JNIEnv->GetStringUtfChars("") was called from RX@0x400b53ef[libmain.so]0xb53ef
+JNIEnv->ReleaseStringUTFChars("") was called from RX@0x400b5405[libmain.so]0xb5405
+JNIEnv->GetObjectArrayElement([android.content.Context@282003e1, java.lang.Integer@7fad8c79, "", "/data/user/0/com.tmall.wireless/app_SGLib", ""], 3) => "/data/user/0/com.tmall.wireless/app_SGLib" was called from RX@0x400b68b1[libmain.so]0xb68b1
+JNIEnv->GetStringUtfChars("/data/user/0/com.tmall.wireless/app_SGLib") was called from RX@0x400b53ef[libmain.so]0xb53ef
+JNIEnv->ReleaseStringUTFChars("/data/user/0/com.tmall.wireless/app_SGLib") was called from RX@0x400b5405[libmain.so]0xb5405
+JNIEnv->GetObjectArrayElement([android.content.Context@282003e1, java.lang.Integer@7fad8c79, "", "/data/user/0/com.tmall.wireless/app_SGLib", ""], 4) => "" was called from RX@0x400b68b1[libmain.so]0xb68b1
+JNIEnv->GetStringUtfChars("") was called from RX@0x400b53ef[libmain.so]0xb53ef
+JNIEnv->ReleaseStringUTFChars("") was called from RX@0x400b5405[libmain.so]0xb5405
+=====================get currentTimeMillis 1651633395077
+=====================get currentTimeMillis 1651633395079
+=====================get currentTimeMillis 1651633395080
+=====================get currentTimeMillis 1651633395080
+=====================get currentTimeMillis 1651633395080
+[11:03:15 085]  INFO [com.github.unidbg.linux.ARM32SyscallHandler] (ARM32SyscallHandler:814) - pthread_clone child_stack=RW@0x403fe930, thread_id=1, fn=RX@0x401c17f5[libc.so]0x3f7f5, arg=RW@0x403fe930, flags=[CLONE_VM, CLONE_FS, CLONE_FILES, CLONE_SIGHAND, CLONE_THREAD, CLONE_SYSVSEM, CLONE_SETTLS, CLONE_PARENT_SETTID, CLONE_CHILD_CLEARTID]
+=====================get currentTimeMillis 1651633395088
+=====================get currentTimeMillis 1651633395089
+=====================get currentTimeMillis 1651633395089
+=====================get currentTimeMillis 1651633395090
+=====================get currentTimeMillis 1651633395091
+=====================get currentTimeMillis 1651633395092
+=====================get currentTimeMillis 1651633395092
+resolve.pathname: /data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk
+resolve.pathname: /data/user/0/com.tmall.wireless/app_SGLib/app_1650422109
+[11:03:15 102]  INFO [com.github.unidbg.linux.ARM32SyscallHandler] (ARM32SyscallHandler:1842) - faccessat dirfd=-100, pathname=/data/user/0/com.tmall.wireless/app_SGLib/app_1650422109, oflags=0x0, mode=0x0
+resolve.pathname: /data/user/0/com.tmall.wireless/files/storage/com.taobao.maindex
+[11:03:15 104]  INFO [com.github.unidbg.linux.ARM32SyscallHandler] (ARM32SyscallHandler:1842) - faccessat dirfd=-100, pathname=/data/user/0/com.tmall.wireless/files/storage/com.taobao.maindex, oflags=0x0, mode=0x0
+resolve.pathname: /data/user/0/com.tmall.wireless/files/ab914f43b8296c2c.lock
+File opened '/data/user/0/com.tmall.wireless/files/ab914f43b8296c2c.lock' with oflags=0x20042 from RX@0x4019de75[libc.so]0x1be75
+resolve.pathname: /data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt
+File opened '/data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt' with oflags=0x20000 from RX@0x4019de75[libc.so]0x1be75
+Read 1368 bytes from '/data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt'
+File closed '/data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt' from RX@0x4019bfe1[libc.so]0x19fe1
+resolve.pathname: /data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt
+File opened '/data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt' with oflags=0x20000 from RX@0x4019de75[libc.so]0x1be75
+Read 4096 bytes from '/data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt'
+Read 5464 bytes from '/data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt'
+File closed '/data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt' from RX@0x4019bfe1[libc.so]0x19fe1
+resolve.pathname: /data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt
+File opened '/data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt' with oflags=0x20241 from RX@0x4019de75[libc.so]0x1be75
+Write 4096 bytes to '/data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt'
+Write 3904 bytes to '/data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt'
+File closed '/data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt' from RX@0x4019bfe1[libc.so]0x19fe1
+=====================get currentTimeMillis 1651633395135
+=====================get currentTimeMillis 1651633395136
+[11:03:15 139]  INFO [com.github.unidbg.linux.ARM32SyscallHandler] (ARM32SyscallHandler:814) - pthread_clone child_stack=RW@0x4053e930, thread_id=2, fn=RX@0x401c17f5[libc.so]0x3f7f5, arg=RW@0x4053e930, flags=[CLONE_VM, CLONE_FS, CLONE_FILES, CLONE_SIGHAND, CLONE_THREAD, CLONE_SYSVSEM, CLONE_SETTLS, CLONE_PARENT_SETTID, CLONE_CHILD_CLEARTID]
+[11:03:15 142]  INFO [com.github.unidbg.linux.ARM32SyscallHandler] (ARM32SyscallHandler:814) - pthread_clone child_stack=RW@0x4063d930, thread_id=3, fn=RX@0x401c17f5[libc.so]0x3f7f5, arg=RW@0x4063d930, flags=[CLONE_VM, CLONE_FS, CLONE_FILES, CLONE_SIGHAND, CLONE_THREAD, CLONE_SYSVSEM, CLONE_SETTLS, CLONE_PARENT_SETTID, CLONE_CHILD_CLEARTID]
+[11:03:15 146]  INFO [com.github.unidbg.linux.ARM32SyscallHandler] (ARM32SyscallHandler:814) - pthread_clone child_stack=RW@0x4073c930, thread_id=4, fn=RX@0x401c17f5[libc.so]0x3f7f5, arg=RW@0x4073c930, flags=[CLONE_VM, CLONE_FS, CLONE_FILES, CLONE_SIGHAND, CLONE_THREAD, CLONE_SYSVSEM, CLONE_SETTLS, CLONE_PARENT_SETTID, CLONE_CHILD_CLEARTID]
+=====================get currentTimeMillis 1651633395148
+resolve.pathname: /data/user/0/com.tmall.wireless/files/Q0VSVC5SU0EK.txt
+resolve.pathname: /data/user/0/com.tmall.wireless/files/Q0VSVC5SU0EK.txt
+File opened '/data/user/0/com.tmall.wireless/files/Q0VSVC5SU0EK.txt' with oflags=0x20000 from RX@0x4019de75[libc.so]0x1be75
+Read 980 bytes from '/data/user/0/com.tmall.wireless/files/Q0VSVC5SU0EK.txt'
+resolve.pathname: /data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk
+File closed '/data/user/0/com.tmall.wireless/files/Q0VSVC5SU0EK.txt' from RX@0x4019bfe1[libc.so]0x19fe1
+=====================get currentTimeMillis 1651633395176
+=====================get currentTimeMillis 1651633395178
+=====================get currentTimeMillis 1651633395181
+JNIEnv->CallStaticVoidMethod(class com/alibaba/wireless/security/open/edgecomputing/ECMiscInfo, registerAppLifeCyCleCallBack()) was called from RX@0x400596a1[libmain.so]0x596a1
+[11:03:15 187]  INFO [com.github.unidbg.linux.ARM32SyscallHandler] (ARM32SyscallHandler:814) - pthread_clone child_stack=RW@0x4087e930, thread_id=5, fn=RX@0x401c17f5[libc.so]0x3f7f5, arg=RW@0x4087e930, flags=[CLONE_VM, CLONE_FS, CLONE_FILES, CLONE_SIGHAND, CLONE_THREAD, CLONE_SYSVSEM, CLONE_SETTLS, CLONE_PARENT_SETTID, CLONE_CHILD_CLEARTID]
+=====================get currentTimeMillis 1651633395188
+=====================get currentTimeMillis 1651633395188
+=====================get currentTimeMillis 1651633395188
+=====================get currentTimeMillis 1651633395189
+=====================get currentTimeMillis 1651633395190
+resolve.pathname: /system/usr/share/zoneinfo/tzdata
+File opened '/system/usr/share/zoneinfo/tzdata' with oflags=0x20000 from RX@0x4019de75[libc.so]0x1be75
+Read 24 bytes from '/system/usr/share/zoneinfo/tzdata'
+Read 30264 bytes from '/system/usr/share/zoneinfo/tzdata'
+Read 29816 bytes from '/system/usr/share/zoneinfo/tzdata'
+File closed '/system/usr/share/zoneinfo/tzdata' from RX@0x4019bfe1[libc.so]0x19fe1
+resolve.pathname: /data/user/0/com.tmall.wireless/app_SGLib/lvmreport
+[11:03:15 211]  INFO [com.github.unidbg.linux.ARM32SyscallHandler] (ARM32SyscallHandler:1842) - faccessat dirfd=-100, pathname=/data/user/0/com.tmall.wireless/app_SGLib/lvmreport, oflags=0x0, mode=0x0
+JNIEnv->CallStaticIntMethod(class com/alibaba/wireless/security/framework/utils/UserTrackMethodJniBridge, utAvaiable() => 1) was called from RX@0x40029581[libmain.so]0x29581
+resolve.pathname: /data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk
+resolve.pathname: /data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk
+File opened '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk' with oflags=0x20000 from RX@0x4019de75[libc.so]0x1be75
+Read 3693 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 3693 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 3693 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 15680 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 15680 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 15680 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 15680 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 15680 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 4096 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+Read 7232 bytes from '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk'
+File closed '/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk' from RX@0x4019bfe1[libc.so]0x19fe1
+resolve.pathname: /data/user/0/com.tmall.wireless/files
+resolve.pathname: /data/user/0/com.tmall.wireless/files/sgFile.lock
+File opened '/data/user/0/com.tmall.wireless/files/sgFile.lock' with oflags=0x20042 from RX@0x4019de75[libc.so]0x1be75
+resolve.pathname: /data/user/0/com.tmall.wireless/app_SGLib/SG_INNER_DATA
+File opened '/data/user/0/com.tmall.wireless/app_SGLib/SG_INNER_DATA' with oflags=0x20000 errno is 2 from RX@0x4019de75[libc.so]0x1be75
+[11:03:16 902]  INFO [com.github.unidbg.linux.ARM32SyscallHandler] (ARM32SyscallHandler:1890) - openat dirfd=-100, pathname=/data/user/0/com.tmall.wireless/app_SGLib/SG_INNER_DATA, oflags=0x20000, mode=0
+JNIEnv->NewStringUTF("Soft") was called from RX@0x400b5561[libmain.so]0xb5561
+JNIEnv->NewStringUTF("SGSAFETOKEN_IN") was called from RX@0x400b5561[libmain.so]0xb5561
+0===Soft
+1===SGSAFETOKEN_IN
+2===null
+JNIEnv->CallStaticObjectMethod(class com/taobao/wireless/security/adapter/common/SPUtility2, readFromSPUnified("Soft", "SGSAFETOKEN_IN", null) => "280d&Q7ML/OkLEpaYYTFbieH9K8Q+VP8Vz0V/6FznJzlwPTQRBIWwZnwpLGnq4pa7VKgZ/Thh/dxhDddm2k9Wlm8gPrF+k93QrReamODj53c9G5pIfTS7cee8eK5OWpBA9/AVrMOypcCobgp7ZmxOz2jkseQkePTeeQOxwn5BMBYXZlSIiWqCtfA0H9VwP3AQuJHGpJbXHPGAIqcF3sE5LHuWEGhtk7QMXfpNI7qX/K9QY1GjTF64xCQz66cVUeLOIibzHidbuLOdqdcuOnFNUUkHvMoIdo4KD7HbC35pjzMaUcYcF5soph5YG/KY7oCXyEht0QeKJcmYLr7VkDugSui36uXrUPuiuMaqsQjwGivio9Ml5SLWePEPO5ZboOQBkQOYVKIw2UDAe6WejnUcXAxHRGupMqGI+hjEQv5alb3iFqQRXbyahmGQ6zxIu+/aKroXs4+LHexmzAh/jLZKHkdSntWTsccQHB/lxRpWEFq7uK5vRJSEj4i5ooRS1a4sYVnSz8tyI9logJ6RDKc/lHmV5csNf9XEZN1/eZvm3TZzTuMZHJBx/SSSmGbOtvSUktMdslk1VZZsxdHVQv9Sav9rkuVSdDLQLsHra3Ugqorf8VepLAlq7G8p9rCu3dwD8AQU5GSauQ7hG8cLfEVOo2osXfNgXZ46IxKJ+n7UIrLdmxH+EKztnx8NAGTs1YRKBRwjamoyW395rvVjXnI+KufEWPZwUVuBX3yyjF/mbgkU9J8NlriC4TuVCbcKLXp4OXnS5yFtsh0xojrZHy9RVyEw+3EaeYB6jhE2rw3euJT93HGW9C5akIC5G+m7yKuYYhHAG7TxipCHlnGnQKCSjMXb7A==") was called from RX@0x400abb77[libmain.so]0xabb77
+JNIEnv->GetStringUtfChars("280d&Q7ML/OkLEpaYYTFbieH9K8Q+VP8Vz0V/6FznJzlwPTQRBIWwZnwpLGnq4pa7VKgZ/Thh/dxhDddm2k9Wlm8gPrF+k93QrReamODj53c9G5pIfTS7cee8eK5OWpBA9/AVrMOypcCobgp7ZmxOz2jkseQkePTeeQOxwn5BMBYXZlSIiWqCtfA0H9VwP3AQuJHGpJbXHPGAIqcF3sE5LHuWEGhtk7QMXfpNI7qX/K9QY1GjTF64xCQz66cVUeLOIibzHidbuLOdqdcuOnFNUUkHvMoIdo4KD7HbC35pjzMaUcYcF5soph5YG/KY7oCXyEht0QeKJcmYLr7VkDugSui36uXrUPuiuMaqsQjwGivio9Ml5SLWePEPO5ZboOQBkQOYVKIw2UDAe6WejnUcXAxHRGupMqGI+hjEQv5alb3iFqQRXbyahmGQ6zxIu+/aKroXs4+LHexmzAh/jLZKHkdSntWTsccQHB/lxRpWEFq7uK5vRJSEj4i5ooRS1a4sYVnSz8tyI9logJ6RDKc/lHmV5csNf9XEZN1/eZvm3TZzTuMZHJBx/SSSmGbOtvSUktMdslk1VZZsxdHVQv9Sav9rkuVSdDLQLsHra3Ugqorf8VepLAlq7G8p9rCu3dwD8AQU5GSauQ7hG8cLfEVOo2osXfNgXZ46IxKJ+n7UIrLdmxH+EKztnx8NAGTs1YRKBRwjamoyW395rvVjXnI+KufEWPZwUVuBX3yyjF/mbgkU9J8NlriC4TuVCbcKLXp4OXnS5yFtsh0xojrZHy9RVyEw+3EaeYB6jhE2rw3euJT93HGW9C5akIC5G+m7yKuYYhHAG7TxipCHlnGnQKCSjMXb7A==") was called from RX@0x400b537d[libmain.so]0xb537d
+JNIEnv->ReleaseStringUTFChars("280d&Q7ML/OkLEpaYYTFbieH9K8Q+VP8Vz0V/6FznJzlwPTQRBIWwZnwpLGnq4pa7VKgZ/Thh/dxhDddm2k9Wlm8gPrF+k93QrReamODj53c9G5pIfTS7cee8eK5OWpBA9/AVrMOypcCobgp7ZmxOz2jkseQkePTeeQOxwn5BMBYXZlSIiWqCtfA0H9VwP3AQuJHGpJbXHPGAIqcF3sE5LHuWEGhtk7QMXfpNI7qX/K9QY1GjTF64xCQz66cVUeLOIibzHidbuLOdqdcuOnFNUUkHvMoIdo4KD7HbC35pjzMaUcYcF5soph5YG/KY7oCXyEht0QeKJcmYLr7VkDugSui36uXrUPuiuMaqsQjwGivio9Ml5SLWePEPO5ZboOQBkQOYVKIw2UDAe6WejnUcXAxHRGupMqGI+hjEQv5alb3iFqQRXbyahmGQ6zxIu+/aKroXs4+LHexmzAh/jLZKHkdSntWTsccQHB/lxRpWEFq7uK5vRJSEj4i5ooRS1a4sYVnSz8tyI9logJ6RDKc/lHmV5csNf9XEZN1/eZvm3TZzTuMZHJBx/SSSmGbOtvSUktMdslk1VZZsxdHVQv9Sav9rkuVSdDLQLsHra3Ugqorf8VepLAlq7G8p9rCu3dwD8AQU5GSauQ7hG8cLfEVOo2osXfNgXZ46IxKJ+n7UIrLdmxH+EKztnx8NAGTs1YRKBRwjamoyW395rvVjXnI+KufEWPZwUVuBX3yyjF/mbgkU9J8NlriC4TuVCbcKLXp4OXnS5yFtsh0xojrZHy9RVyEw+3EaeYB6jhE2rw3euJT93HGW9C5akIC5G+m7yKuYYhHAG7TxipCHlnGnQKCSjMXb7A==") was called from RX@0x400b53c7[libmain.so]0xb53c7
+=====================get currentTimeMillis 1651633396955
+resolve.pathname: /data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt
+File opened '/data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt' with oflags=0x20000 from RX@0x4019de75[libc.so]0x1be75
+Read 1368 bytes from '/data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt'
+File closed '/data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt' from RX@0x4019bfe1[libc.so]0x19fe1
+resolve.pathname: /data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt
+File opened '/data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt' with oflags=0x20441 from RX@0x4019de75[libc.so]0x1be75
+Write 40 bytes to '/data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt'
+File closed '/data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt' from RX@0x4019bfe1[libc.so]0x19fe1
+resolve.pathname: /data/user/0/com.tmall.wireless/app_SGLib/SG_USER_DATA
+File opened '/data/user/0/com.tmall.wireless/app_SGLib/SG_USER_DATA' with oflags=0x20000 errno is 2 from RX@0x4019de75[libc.so]0x1be75
+[11:03:16 991]  INFO [com.github.unidbg.linux.ARM32SyscallHandler] (ARM32SyscallHandler:1890) - openat dirfd=-100, pathname=/data/user/0/com.tmall.wireless/app_SGLib/SG_USER_DATA, oflags=0x20000, mode=0
+JNIEnv->NewStringUTF("Soft") was called from RX@0x400b5561[libmain.so]0xb5561
+JNIEnv->NewStringUTF("SGSAFETOKEN") was called from RX@0x400b5561[libmain.so]0xb5561
+0===Soft
+1===SGSAFETOKEN
+2===null
+JNIEnv->CallStaticObjectMethod(class com/taobao/wireless/security/adapter/common/SPUtility2, readFromSPUnified("Soft", "SGSAFETOKEN", null) => null) was called from RX@0x400abb77[libmain.so]0xabb77
+=====================get currentTimeMillis 1651633396993
+resolve.pathname: /data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt
+File opened '/data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt' with oflags=0x20000 from RX@0x4019de75[libc.so]0x1be75
+Read 1408 bytes from '/data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt'
+File closed '/data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt' from RX@0x4019bfe1[libc.so]0x19fe1
+resolve.pathname: /data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt
+File opened '/data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt' with oflags=0x20441 from RX@0x4019de75[libc.so]0x1be75
+Write 40 bytes to '/data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt'
+File closed '/data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt' from RX@0x4019bfe1[libc.so]0x19fe1
+resolve.pathname: /data/user/0/com.tmall.wireless/app_SGLib/SG_INNER_DATA
+File opened '/data/user/0/com.tmall.wireless/app_SGLib/SG_INNER_DATA' with oflags=0x20000 errno is 2 from RX@0x4019de75[libc.so]0x1be75
+[11:03:17 003]  INFO [com.github.unidbg.linux.ARM32SyscallHandler] (ARM32SyscallHandler:1890) - openat dirfd=-100, pathname=/data/user/0/com.tmall.wireless/app_SGLib/SG_INNER_DATA, oflags=0x20000, mode=0
+JNIEnv->NewStringUTF("Soft") was called from RX@0x400b5561[libmain.so]0xb5561
+JNIEnv->NewStringUTF("SGTMAGIC") was called from RX@0x400b5561[libmain.so]0xb5561
+0===Soft
+1===SGTMAGIC
+2===null
+JNIEnv->CallStaticObjectMethod(class com/taobao/wireless/security/adapter/common/SPUtility2, readFromSPUnified("Soft", "SGTMAGIC", null) => "Qtq9evYLXX28i7mukFiYF4B2FkK7sexjP5kVql9k+00=") was called from RX@0x400abb77[libmain.so]0xabb77
+JNIEnv->GetStringUtfChars("Qtq9evYLXX28i7mukFiYF4B2FkK7sexjP5kVql9k+00=") was called from RX@0x400b537d[libmain.so]0xb537d
+JNIEnv->ReleaseStringUTFChars("Qtq9evYLXX28i7mukFiYF4B2FkK7sexjP5kVql9k+00=") was called from RX@0x400b53c7[libmain.so]0xb53c7
+=====================get currentTimeMillis 1651633397006
+resolve.pathname: /data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt
+File opened '/data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt' with oflags=0x20000 from RX@0x4019de75[libc.so]0x1be75
+Read 1448 bytes from '/data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt'
+File closed '/data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt' from RX@0x4019bfe1[libc.so]0x19fe1
+resolve.pathname: /data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt
+File opened '/data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt' with oflags=0x20441 from RX@0x4019de75[libc.so]0x1be75
+Write 40 bytes to '/data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt'
+File closed '/data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt' from RX@0x4019bfe1[libc.so]0x19fe1
+resolve.pathname: /data/user/0/com.tmall.wireless/app_SGLib/SG_INNER_DATA
+File opened '/data/user/0/com.tmall.wireless/app_SGLib/SG_INNER_DATA' with oflags=0x20000 errno is 2 from RX@0x4019de75[libc.so]0x1be75
+[11:03:17 019]  INFO [com.github.unidbg.linux.ARM32SyscallHandler] (ARM32SyscallHandler:1890) - openat dirfd=-100, pathname=/data/user/0/com.tmall.wireless/app_SGLib/SG_INNER_DATA, oflags=0x20000, mode=0
+JNIEnv->NewStringUTF("Soft") was called from RX@0x400b5561[libmain.so]0xb5561
+JNIEnv->NewStringUTF("SGSAFETOKEN_IN") was called from RX@0x400b5561[libmain.so]0xb5561
+0===Soft
+1===SGSAFETOKEN_IN
+2===null
+JNIEnv->CallStaticObjectMethod(class com/taobao/wireless/security/adapter/common/SPUtility2, readFromSPUnified("Soft", "SGSAFETOKEN_IN", null) => "280d&Q7ML/OkLEpaYYTFbieH9K8Q+VP8Vz0V/6FznJzlwPTQRBIWwZnwpLGnq4pa7VKgZ/Thh/dxhDddm2k9Wlm8gPrF+k93QrReamODj53c9G5pIfTS7cee8eK5OWpBA9/AVrMOypcCobgp7ZmxOz2jkseQkePTeeQOxwn5BMBYXZlSIiWqCtfA0H9VwP3AQuJHGpJbXHPGAIqcF3sE5LHuWEGhtk7QMXfpNI7qX/K9QY1GjTF64xCQz66cVUeLOIibzHidbuLOdqdcuOnFNUUkHvMoIdo4KD7HbC35pjzMaUcYcF5soph5YG/KY7oCXyEht0QeKJcmYLr7VkDugSui36uXrUPuiuMaqsQjwGivio9Ml5SLWePEPO5ZboOQBkQOYVKIw2UDAe6WejnUcXAxHRGupMqGI+hjEQv5alb3iFqQRXbyahmGQ6zxIu+/aKroXs4+LHexmzAh/jLZKHkdSntWTsccQHB/lxRpWEFq7uK5vRJSEj4i5ooRS1a4sYVnSz8tyI9logJ6RDKc/lHmV5csNf9XEZN1/eZvm3TZzTuMZHJBx/SSSmGbOtvSUktMdslk1VZZsxdHVQv9Sav9rkuVSdDLQLsHra3Ugqorf8VepLAlq7G8p9rCu3dwD8AQU5GSauQ7hG8cLfEVOo2osXfNgXZ46IxKJ+n7UIrLdmxH+EKztnx8NAGTs1YRKBRwjamoyW395rvVjXnI+KufEWPZwUVuBX3yyjF/mbgkU9J8NlriC4TuVCbcKLXp4OXnS5yFtsh0xojrZHy9RVyEw+3EaeYB6jhE2rw3euJT93HGW9C5akIC5G+m7yKuYYhHAG7TxipCHlnGnQKCSjMXb7A==") was called from RX@0x400abb77[libmain.so]0xabb77
+JNIEnv->GetStringUtfChars("280d&Q7ML/OkLEpaYYTFbieH9K8Q+VP8Vz0V/6FznJzlwPTQRBIWwZnwpLGnq4pa7VKgZ/Thh/dxhDddm2k9Wlm8gPrF+k93QrReamODj53c9G5pIfTS7cee8eK5OWpBA9/AVrMOypcCobgp7ZmxOz2jkseQkePTeeQOxwn5BMBYXZlSIiWqCtfA0H9VwP3AQuJHGpJbXHPGAIqcF3sE5LHuWEGhtk7QMXfpNI7qX/K9QY1GjTF64xCQz66cVUeLOIibzHidbuLOdqdcuOnFNUUkHvMoIdo4KD7HbC35pjzMaUcYcF5soph5YG/KY7oCXyEht0QeKJcmYLr7VkDugSui36uXrUPuiuMaqsQjwGivio9Ml5SLWePEPO5ZboOQBkQOYVKIw2UDAe6WejnUcXAxHRGupMqGI+hjEQv5alb3iFqQRXbyahmGQ6zxIu+/aKroXs4+LHexmzAh/jLZKHkdSntWTsccQHB/lxRpWEFq7uK5vRJSEj4i5ooRS1a4sYVnSz8tyI9logJ6RDKc/lHmV5csNf9XEZN1/eZvm3TZzTuMZHJBx/SSSmGbOtvSUktMdslk1VZZsxdHVQv9Sav9rkuVSdDLQLsHra3Ugqorf8VepLAlq7G8p9rCu3dwD8AQU5GSauQ7hG8cLfEVOo2osXfNgXZ46IxKJ+n7UIrLdmxH+EKztnx8NAGTs1YRKBRwjamoyW395rvVjXnI+KufEWPZwUVuBX3yyjF/mbgkU9J8NlriC4TuVCbcKLXp4OXnS5yFtsh0xojrZHy9RVyEw+3EaeYB6jhE2rw3euJT93HGW9C5akIC5G+m7yKuYYhHAG7TxipCHlnGnQKCSjMXb7A==") was called from RX@0x400b537d[libmain.so]0xb537d
+JNIEnv->ReleaseStringUTFChars("280d&Q7ML/OkLEpaYYTFbieH9K8Q+VP8Vz0V/6FznJzlwPTQRBIWwZnwpLGnq4pa7VKgZ/Thh/dxhDddm2k9Wlm8gPrF+k93QrReamODj53c9G5pIfTS7cee8eK5OWpBA9/AVrMOypcCobgp7ZmxOz2jkseQkePTeeQOxwn5BMBYXZlSIiWqCtfA0H9VwP3AQuJHGpJbXHPGAIqcF3sE5LHuWEGhtk7QMXfpNI7qX/K9QY1GjTF64xCQz66cVUeLOIibzHidbuLOdqdcuOnFNUUkHvMoIdo4KD7HbC35pjzMaUcYcF5soph5YG/KY7oCXyEht0QeKJcmYLr7VkDugSui36uXrUPuiuMaqsQjwGivio9Ml5SLWePEPO5ZboOQBkQOYVKIw2UDAe6WejnUcXAxHRGupMqGI+hjEQv5alb3iFqQRXbyahmGQ6zxIu+/aKroXs4+LHexmzAh/jLZKHkdSntWTsccQHB/lxRpWEFq7uK5vRJSEj4i5ooRS1a4sYVnSz8tyI9logJ6RDKc/lHmV5csNf9XEZN1/eZvm3TZzTuMZHJBx/SSSmGbOtvSUktMdslk1VZZsxdHVQv9Sav9rkuVSdDLQLsHra3Ugqorf8VepLAlq7G8p9rCu3dwD8AQU5GSauQ7hG8cLfEVOo2osXfNgXZ46IxKJ+n7UIrLdmxH+EKztnx8NAGTs1YRKBRwjamoyW395rvVjXnI+KufEWPZwUVuBX3yyjF/mbgkU9J8NlriC4TuVCbcKLXp4OXnS5yFtsh0xojrZHy9RVyEw+3EaeYB6jhE2rw3euJT93HGW9C5akIC5G+m7yKuYYhHAG7TxipCHlnGnQKCSjMXb7A==") was called from RX@0x400b53c7[libmain.so]0xb53c7
+=====================get currentTimeMillis 1651633397021
+resolve.pathname: /data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt
+File opened '/data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt' with oflags=0x20000 from RX@0x4019de75[libc.so]0x1be75
+Read 1488 bytes from '/data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt'
+File closed '/data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt' from RX@0x4019bfe1[libc.so]0x19fe1
+resolve.pathname: /data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt
+File opened '/data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt' with oflags=0x20441 from RX@0x4019de75[libc.so]0x1be75
+Write 40 bytes to '/data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt'
+File closed '/data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt' from RX@0x4019bfe1[libc.so]0x19fe1
+File closed '/data/user/0/com.tmall.wireless/files/sgFile.lock' from RX@0x4019bfe1[libc.so]0x19fe1
+JNIEnv->FindClass(com/uc/crashsdk/JNIBridge) was called from RX@0x4004748d[libmain.so]0x4748d
+JNIEnv->NewGlobalRef(class com/uc/crashsdk/JNIBridge) was called from RX@0x4004749f[libmain.so]0x4749f
+JNIEnv->GetStaticMethodID(com/uc/crashsdk/JNIBridge.registerInfoCallback(Ljava/lang/String;IJI)I) => 0x9c56ba02 was called from RX@0x400474bf[libmain.so]0x474bf
+JNIEnv->NewStringUTF("sgSecurityConfigKey") was called from RX@0x400b5561[libmain.so]0xb5561
+JNIEnv->CallStaticIntMethod(class com/uc/crashsdk/JNIBridge, registerInfoCallback("sgSecurityConfigKey", 0x101, 0x40047365L, 0x1) => 1) was called from RX@0x40047621[libmain.so]0x47621
+resolve.pathname: /data/user/0/com.tmall.wireless/files/sgFile.lock
+File opened '/data/user/0/com.tmall.wireless/files/sgFile.lock' with oflags=0x20042 from RX@0x4019de75[libc.so]0x1be75
+resolve.pathname: /data/user/0/com.tmall.wireless/app_SGLib/SG_INNER_DATA
+File opened '/data/user/0/com.tmall.wireless/app_SGLib/SG_INNER_DATA' with oflags=0x20000 errno is 2 from RX@0x4019de75[libc.so]0x1be75
+[11:03:17 035]  INFO [com.github.unidbg.linux.ARM32SyscallHandler] (ARM32SyscallHandler:1890) - openat dirfd=-100, pathname=/data/user/0/com.tmall.wireless/app_SGLib/SG_INNER_DATA, oflags=0x20000, mode=0
+JNIEnv->NewStringUTF("Soft") was called from RX@0x400b5561[libmain.so]0xb5561
+JNIEnv->NewStringUTF("SGSAFETOKEN_IN") was called from RX@0x400b5561[libmain.so]0xb5561
+0===Soft
+1===SGSAFETOKEN_IN
+2===null
+JNIEnv->CallStaticObjectMethod(class com/taobao/wireless/security/adapter/common/SPUtility2, readFromSPUnified("Soft", "SGSAFETOKEN_IN", null) => "280d&Q7ML/OkLEpaYYTFbieH9K8Q+VP8Vz0V/6FznJzlwPTQRBIWwZnwpLGnq4pa7VKgZ/Thh/dxhDddm2k9Wlm8gPrF+k93QrReamODj53c9G5pIfTS7cee8eK5OWpBA9/AVrMOypcCobgp7ZmxOz2jkseQkePTeeQOxwn5BMBYXZlSIiWqCtfA0H9VwP3AQuJHGpJbXHPGAIqcF3sE5LHuWEGhtk7QMXfpNI7qX/K9QY1GjTF64xCQz66cVUeLOIibzHidbuLOdqdcuOnFNUUkHvMoIdo4KD7HbC35pjzMaUcYcF5soph5YG/KY7oCXyEht0QeKJcmYLr7VkDugSui36uXrUPuiuMaqsQjwGivio9Ml5SLWePEPO5ZboOQBkQOYVKIw2UDAe6WejnUcXAxHRGupMqGI+hjEQv5alb3iFqQRXbyahmGQ6zxIu+/aKroXs4+LHexmzAh/jLZKHkdSntWTsccQHB/lxRpWEFq7uK5vRJSEj4i5ooRS1a4sYVnSz8tyI9logJ6RDKc/lHmV5csNf9XEZN1/eZvm3TZzTuMZHJBx/SSSmGbOtvSUktMdslk1VZZsxdHVQv9Sav9rkuVSdDLQLsHra3Ugqorf8VepLAlq7G8p9rCu3dwD8AQU5GSauQ7hG8cLfEVOo2osXfNgXZ46IxKJ+n7UIrLdmxH+EKztnx8NAGTs1YRKBRwjamoyW395rvVjXnI+KufEWPZwUVuBX3yyjF/mbgkU9J8NlriC4TuVCbcKLXp4OXnS5yFtsh0xojrZHy9RVyEw+3EaeYB6jhE2rw3euJT93HGW9C5akIC5G+m7yKuYYhHAG7TxipCHlnGnQKCSjMXb7A==") was called from RX@0x400abb77[libmain.so]0xabb77
+JNIEnv->GetStringUtfChars("280d&Q7ML/OkLEpaYYTFbieH9K8Q+VP8Vz0V/6FznJzlwPTQRBIWwZnwpLGnq4pa7VKgZ/Thh/dxhDddm2k9Wlm8gPrF+k93QrReamODj53c9G5pIfTS7cee8eK5OWpBA9/AVrMOypcCobgp7ZmxOz2jkseQkePTeeQOxwn5BMBYXZlSIiWqCtfA0H9VwP3AQuJHGpJbXHPGAIqcF3sE5LHuWEGhtk7QMXfpNI7qX/K9QY1GjTF64xCQz66cVUeLOIibzHidbuLOdqdcuOnFNUUkHvMoIdo4KD7HbC35pjzMaUcYcF5soph5YG/KY7oCXyEht0QeKJcmYLr7VkDugSui36uXrUPuiuMaqsQjwGivio9Ml5SLWePEPO5ZboOQBkQOYVKIw2UDAe6WejnUcXAxHRGupMqGI+hjEQv5alb3iFqQRXbyahmGQ6zxIu+/aKroXs4+LHexmzAh/jLZKHkdSntWTsccQHB/lxRpWEFq7uK5vRJSEj4i5ooRS1a4sYVnSz8tyI9logJ6RDKc/lHmV5csNf9XEZN1/eZvm3TZzTuMZHJBx/SSSmGbOtvSUktMdslk1VZZsxdHVQv9Sav9rkuVSdDLQLsHra3Ugqorf8VepLAlq7G8p9rCu3dwD8AQU5GSauQ7hG8cLfEVOo2osXfNgXZ46IxKJ+n7UIrLdmxH+EKztnx8NAGTs1YRKBRwjamoyW395rvVjXnI+KufEWPZwUVuBX3yyjF/mbgkU9J8NlriC4TuVCbcKLXp4OXnS5yFtsh0xojrZHy9RVyEw+3EaeYB6jhE2rw3euJT93HGW9C5akIC5G+m7yKuYYhHAG7TxipCHlnGnQKCSjMXb7A==") was called from RX@0x400b537d[libmain.so]0xb537d
+JNIEnv->ReleaseStringUTFChars("280d&Q7ML/OkLEpaYYTFbieH9K8Q+VP8Vz0V/6FznJzlwPTQRBIWwZnwpLGnq4pa7VKgZ/Thh/dxhDddm2k9Wlm8gPrF+k93QrReamODj53c9G5pIfTS7cee8eK5OWpBA9/AVrMOypcCobgp7ZmxOz2jkseQkePTeeQOxwn5BMBYXZlSIiWqCtfA0H9VwP3AQuJHGpJbXHPGAIqcF3sE5LHuWEGhtk7QMXfpNI7qX/K9QY1GjTF64xCQz66cVUeLOIibzHidbuLOdqdcuOnFNUUkHvMoIdo4KD7HbC35pjzMaUcYcF5soph5YG/KY7oCXyEht0QeKJcmYLr7VkDugSui36uXrUPuiuMaqsQjwGivio9Ml5SLWePEPO5ZboOQBkQOYVKIw2UDAe6WejnUcXAxHRGupMqGI+hjEQv5alb3iFqQRXbyahmGQ6zxIu+/aKroXs4+LHexmzAh/jLZKHkdSntWTsccQHB/lxRpWEFq7uK5vRJSEj4i5ooRS1a4sYVnSz8tyI9logJ6RDKc/lHmV5csNf9XEZN1/eZvm3TZzTuMZHJBx/SSSmGbOtvSUktMdslk1VZZsxdHVQv9Sav9rkuVSdDLQLsHra3Ugqorf8VepLAlq7G8p9rCu3dwD8AQU5GSauQ7hG8cLfEVOo2osXfNgXZ46IxKJ+n7UIrLdmxH+EKztnx8NAGTs1YRKBRwjamoyW395rvVjXnI+KufEWPZwUVuBX3yyjF/mbgkU9J8NlriC4TuVCbcKLXp4OXnS5yFtsh0xojrZHy9RVyEw+3EaeYB6jhE2rw3euJT93HGW9C5akIC5G+m7yKuYYhHAG7TxipCHlnGnQKCSjMXb7A==") was called from RX@0x400b53c7[libmain.so]0xb53c7
+=====================get currentTimeMillis 1651633397038
+resolve.pathname: /data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt
+File opened '/data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt' with oflags=0x20000 from RX@0x4019de75[libc.so]0x1be75
+Read 1528 bytes from '/data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt'
+File closed '/data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt' from RX@0x4019bfe1[libc.so]0x19fe1
+resolve.pathname: /data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt
+File opened '/data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt' with oflags=0x20441 from RX@0x4019de75[libc.so]0x1be75
+Write 40 bytes to '/data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt'
+File closed '/data/user/0/com.tmall.wireless/files/0a231bd8575dcf72.txt' from RX@0x4019bfe1[libc.so]0x19fe1
+File closed '/data/user/0/com.tmall.wireless/files/sgFile.lock' from RX@0x4019bfe1[libc.so]0x19fe1
+resolve.pathname: /data/user/0/com.tmall.wireless/app_SGLib/sglog
+File opened '/data/user/0/com.tmall.wireless/app_SGLib/sglog' with oflags=0x20000 errno is 2 from RX@0x4019de75[libc.so]0x1be75
+[11:03:17 048]  INFO [com.github.unidbg.linux.ARM32SyscallHandler] (ARM32SyscallHandler:1890) - openat dirfd=-100, pathname=/data/user/0/com.tmall.wireless/app_SGLib/sglog, oflags=0x20000, mode=0
+resolve.pathname: /data/user/0/com.tmall.wireless/app_SGLib/sglog
+[11:03:17 048]  INFO [com.github.unidbg.linux.ARM32SyscallHandler] (ARM32SyscallHandler:1044) - stat64 pathname=/data/user/0/com.tmall.wireless/app_SGLib/sglog, LR=RX@0x401bb7d5[libc.so]0x397d5
+=====================get currentTimeMillis 1651633397049
+=====================get currentTimeMillis 1651633397050
+=====================get currentTimeMillis 1651633397050
+JNIEnv->GetMethodID(java/lang/Integer.<init>(I)V) => 0x4c76e5db was called from RX@0x400b5aa7[libmain.so]0xb5aa7
+JNIEnv->NewObject(class java/lang/Integer, <init>(0x0) => java.lang.Integer@5bfa9431) was called from RX@0x400109b7[libmain.so]0x109b7
+xiayu, initMain.ret-10101: 0
+Find native function Java_com_taobao_wireless_security_adapter_JNICLibrary_doCommandNative => RX@0x40010269[libmain.so]0x10269
+JNIEnv->GetArrayLength(["main", "6.5.156", "/data/user/0/com.tmall.wireless/app_SGLib/app_1650422279/main/libsgmainso-6.5.156.so"] => 3) was called from RX@0x40010b29[libmain.so]0x10b29
+JNIEnv->GetObjectArrayElement(["main", "6.5.156", "/data/user/0/com.tmall.wireless/app_SGLib/app_1650422279/main/libsgmainso-6.5.156.so"], 0) => "main" was called from RX@0x400b68b1[libmain.so]0xb68b1
+JNIEnv->GetStringUtfChars("main") was called from RX@0x400b53ef[libmain.so]0xb53ef
+JNIEnv->ReleaseStringUTFChars("main") was called from RX@0x400b5405[libmain.so]0xb5405
+JNIEnv->GetObjectArrayElement(["main", "6.5.156", "/data/user/0/com.tmall.wireless/app_SGLib/app_1650422279/main/libsgmainso-6.5.156.so"], 1) => "6.5.156" was called from RX@0x400b68b1[libmain.so]0xb68b1
+JNIEnv->GetStringUtfChars("6.5.156") was called from RX@0x400b53ef[libmain.so]0xb53ef
+JNIEnv->ReleaseStringUTFChars("6.5.156") was called from RX@0x400b5405[libmain.so]0xb5405
+JNIEnv->GetObjectArrayElement(["main", "6.5.156", "/data/user/0/com.tmall.wireless/app_SGLib/app_1650422279/main/libsgmainso-6.5.156.so"], 2) => "/data/user/0/com.tmall.wireless/app_SGLib/app_1650422279/main/libsgmainso-6.5.156.so" was called from RX@0x400b68b1[libmain.so]0xb68b1
+JNIEnv->GetStringUtfChars("/data/user/0/com.tmall.wireless/app_SGLib/app_1650422279/main/libsgmainso-6.5.156.so") was called from RX@0x400b53ef[libmain.so]0xb53ef
+JNIEnv->ReleaseStringUTFChars("/data/user/0/com.tmall.wireless/app_SGLib/app_1650422279/main/libsgmainso-6.5.156.so") was called from RX@0x400b5405[libmain.so]0xb5405
+JNIEnv->GetMethodID(android/content/Context.getPackageCodePath()Ljava/lang/String;) => 0xc493eef7 was called from RX@0x4001130d[libmain.so]0x1130d
+JNIEnv->CallObjectMethod(android.content.Context@282003e1, getPackageCodePath() => "/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk") was called from RX@0x4001139b[libmain.so]0x1139b
+JNIEnv->GetStringUtfChars("/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk") was called from RX@0x400b537d[libmain.so]0xb537d
+JNIEnv->ReleaseStringUTFChars("/data/app/com.tmall.wireless-jd3waLD9hTRNT6FDdzlKyw==/base.apk") was called from RX@0x400b53c7[libmain.so]0xb53c7
+[11:03:17 072]  INFO [com.github.unidbg.linux.ARM32SyscallHandler] (ARM32SyscallHandler:814) - pthread_clone child_stack=RW@0x4103e930, thread_id=6, fn=RX@0x401c17f5[libc.so]0x3f7f5, arg=RW@0x4103e930, flags=[CLONE_VM, CLONE_FS, CLONE_FILES, CLONE_SIGHAND, CLONE_THREAD, CLONE_SYSVSEM, CLONE_SETTLS, CLONE_PARENT_SETTID, CLONE_CHILD_CLEARTID]
+JNIEnv->GetMethodID(java/lang/Integer.<init>(I)V) => 0x4c76e5db was called from RX@0x400b5aa7[libmain.so]0xb5aa7
+JNIEnv->NewObject(class java/lang/Integer, <init>(0x0) => java.lang.Integer@3b07a0d6) was called from RX@0x40010e39[libmain.so]0x10e39
+xiayu, initMain.ret-10102: 0
+securityBody base 1090777088
+JNIEnv->FindClass(java/lang/Boolean) was called from RX@0x410643a5[libsecuritybody.so]0x253a5
+JNIEnv->NewGlobalRef(class java/lang/Boolean) was called from RX@0x410643af[libsecuritybody.so]0x253af
+JNIEnv->FindClass(java/lang/Integer) was called from RX@0x410643bf[libsecuritybody.so]0x253bf
+JNIEnv->NewGlobalRef(class java/lang/Integer) was called from RX@0x410643c9[libsecuritybody.so]0x253c9
+JNIEnv->FindClass(java/lang/String) was called from RX@0x410643d9[libsecuritybody.so]0x253d9
+JNIEnv->NewGlobalRef(class java/lang/String) was called from RX@0x410643e3[libsecuritybody.so]0x253e3
+JNIEnv->FindClass(com/alibaba/wireless/security/framework/SGPluginExtras) was called from RX@0x4106601d[libsecuritybody.so]0x2701d
+JNIEnv->GetStaticFieldID(com/alibaba/wireless/security/framework/SGPluginExtras.slotJ) => 0x24d12279 was called from RX@0x41066031[libsecuritybody.so]0x27031
+JNIEnv->SetStaticLongField(class com/alibaba/wireless/security/framework/SGPluginExtras, slot, 0x410418ae) was called from RX@0x41066049[libsecuritybody.so]0x27049
+JNIEnv->FindClass(com/alibaba/wireless/security/securitybody/open/MalDetect) was called from RX@0x41055569[libsecuritybody.so]0x16569
+JNIEnv->NewGlobalRef(class com/alibaba/wireless/security/securitybody/open/MalDetect) was called from RX@0x4105557f[libsecuritybody.so]0x1657f
+JNIEnv->GetStaticMethodID(com/alibaba/wireless/security/securitybody/open/MalDetect.OnDetectionJNI(ILjava/lang/String;Ljava/lang/String;)V) => 0x93eae9f6 was called from RX@0x41055595[libsecuritybody.so]0x16595
+JNIEnv->FindClass(android/content/Context) was called from RX@0x4105badd[libsecuritybody.so]0x1cadd
+JNIEnv->NewGlobalRef(class android/content/Context) was called from RX@0x4105baed[libsecuritybody.so]0x1caed
+JNIEnv->GetMethodID(android/content/Context.getSystemService(Ljava/lang/String;)Ljava/lang/Object;) => 0x545bcf2d was called from RX@0x4105bb0d[libsecuritybody.so]0x1cb0d
+JNIEnv->GetMethodID(android/content/Context.checkSelfPermission(Ljava/lang/String;)I) => 0xf180a439 was called from RX@0x4105bb23[libsecuritybody.so]0x1cb23
+JNIEnv->GetMethodID(android/content/Context.checkCallingOrSelfPermission(Ljava/lang/String;)I) => 0x527b2fee was called from RX@0x4105bb55[libsecuritybody.so]0x1cb55
+JNIEnv->GetMethodID(android/content/Context.registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;) => 0x7b008aa0 was called from RX@0x4105bb8b[libsecuritybody.so]0x1cb8b
+JNIEnv->GetMethodID(android/content/Context.getContentResolver()Landroid/content/ContentResolver;) => 0x3fe770ea was called from RX@0x4105bbbf[libsecuritybody.so]0x1cbbf
+JNIEnv->FindClass(android/content/pm/PackageManager) was called from RX@0x4105bbe7[libsecuritybody.so]0x1cbe7
+JNIEnv->GetStaticFieldID(android/content/pm/PackageManager.PERMISSION_GRANTEDI) => 0xe70faaee was called from RX@0x4105bbff[libsecuritybody.so]0x1cbff
+JNIEnv->GetStaticIntField(class android/content/pm/PackageManager, PERMISSION_GRANTED => 0x1) was called from RX@0x4105bc0d[libsecuritybody.so]0x1cc0d
+JNIEnv->FindClass(com/alibaba/wireless/security/securitybody/LifeCycle) was called from RX@0x4105bf27[libsecuritybody.so]0x1cf27
+JNIEnv->NewGlobalRef(class com/alibaba/wireless/security/securitybody/LifeCycle) was called from RX@0x4105bf37[libsecuritybody.so]0x1cf37
+JNIEnv->GetStaticMethodID(com/alibaba/wireless/security/securitybody/LifeCycle.registerCallBack()V) => 0x3e0d22e0 was called from RX@0x4105bf57[libsecuritybody.so]0x1cf57
+JNIEnv->GetStaticMethodID(com/alibaba/wireless/security/securitybody/LifeCycle.getCurrentActivity()Landroid/app/Activity;) => 0x40d6efd2 was called from RX@0x4105bfd7[libsecuritybody.so]0x1cfd7
+JNIEnv->FindClass(com/alibaba/wireless/security/securitybody/NativeReflectUtils) was called from RX@0x41042913[libsecuritybody.so]0x3913
+JNIEnv->NewGlobalRef(class com/alibaba/wireless/security/securitybody/NativeReflectUtils) was called from RX@0x41042933[libsecuritybody.so]0x3933
+JNIEnv->GetStaticMethodID(com/alibaba/wireless/security/securitybody/NativeReflectUtils.getScreenOrientation(Landroid/content/Context;)I) => 0xc7f462fe was called from RX@0x41042953[libsecuritybody.so]0x3953
+JNIEnv->FindClass(mtopsdk/mtop/global/SDKUtils) was called from RX@0x41042a5d[libsecuritybody.so]0x3a5d
+JNIEnv->NewGlobalRef(class mtopsdk/mtop/global/SDKUtils) was called from RX@0x41042ac3[libsecuritybody.so]0x3ac3
+JNIEnv->GetStaticMethodID(mtopsdk/mtop/global/SDKUtils.getCorrectionTime()J) => 0x9fd971d2 was called from RX@0x41042ae3[libsecuritybody.so]0x3ae3
+JNIEnv->FindClass(java/lang/Integer) was called from RX@0x41065c07[libsecuritybody.so]0x26c07
+JNIEnv->NewGlobalRef(class java/lang/Integer) was called from RX@0x41065c15[libsecuritybody.so]0x26c15
+JNIEnv->FindClass(java/lang/Float) was called from RX@0x41065c07[libsecuritybody.so]0x26c07
+JNIEnv->NewGlobalRef(class java/lang/Float) was called from RX@0x41065c15[libsecuritybody.so]0x26c15
+JNIEnv->FindClass(java/lang/String) was called from RX@0x41065c07[libsecuritybody.so]0x26c07
+JNIEnv->NewGlobalRef(class java/lang/String) was called from RX@0x41065c15[libsecuritybody.so]0x26c15
+JNIEnv->FindClass([B) was called from RX@0x41065c07[libsecuritybody.so]0x26c07
+JNIEnv->NewGlobalRef(class [B) was called from RX@0x41065c15[libsecuritybody.so]0x26c15
+JNIEnv->FindClass(java/util/HashMap) was called from RX@0x41065c07[libsecuritybody.so]0x26c07
+JNIEnv->NewGlobalRef(class java/util/HashMap) was called from RX@0x41065c15[libsecuritybody.so]0x26c15
+JNIEnv->FindClass(java/util/Set) was called from RX@0x41065c07[libsecuritybody.so]0x26c07
+JNIEnv->NewGlobalRef(class java/util/Set) was called from RX@0x41065c15[libsecuritybody.so]0x26c15
+JNIEnv->GetMethodID(java/util/HashMap.keySet()Ljava/util/Set;) => 0x876bbb62 was called from RX@0x41065a47[libsecuritybody.so]0x26a47
+JNIEnv->GetMethodID(java/util/HashMap.get(Ljava/lang/Object;)Ljava/lang/Object;) => 0x5862dfb8 was called from RX@0x41065a67[libsecuritybody.so]0x26a67
+JNIEnv->GetMethodID(java/util/HashMap.<init>(I)V) => 0x4ec6521f was called from RX@0x41065a81[libsecuritybody.so]0x26a81
+JNIEnv->GetMethodID(java/util/HashMap.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;) => 0xb4fbf295 was called from RX@0x41065a9d[libsecuritybody.so]0x26a9d
+JNIEnv->GetMethodID(java/util/Set.toArray()[Ljava/lang/Object;) => 0x910b56b was called from RX@0x41065ab7[libsecuritybody.so]0x26ab7
+Find native function Java_com_taobao_wireless_security_adapter_JNICLibrary_doCommandNative => RX@0x40010269[libmain.so]0x10269
+JNIEnv->GetArrayLength(["securitybody", "6.4.90", "/data/user/0/com.tmall.wireless/app_SGLib/app_1650422279/main/libsgsecuritybodyso-6.4.90.so"] => 3) was called from RX@0x40010b29[libmain.so]0x10b29
+JNIEnv->GetObjectArrayElement(["securitybody", "6.4.90", "/data/user/0/com.tmall.wireless/app_SGLib/app_1650422279/main/libsgsecuritybodyso-6.4.90.so"], 0) => "securitybody" was called from RX@0x400b68b1[libmain.so]0xb68b1
+JNIEnv->GetStringUtfChars("securitybody") was called from RX@0x400b53ef[libmain.so]0xb53ef
+JNIEnv->ReleaseStringUTFChars("securitybody") was called from RX@0x400b5405[libmain.so]0xb5405
+JNIEnv->GetObjectArrayElement(["securitybody", "6.4.90", "/data/user/0/com.tmall.wireless/app_SGLib/app_1650422279/main/libsgsecuritybodyso-6.4.90.so"], 1) => "6.4.90" was called from RX@0x400b68b1[libmain.so]0xb68b1
+JNIEnv->GetStringUtfChars("6.4.90") was called from RX@0x400b53ef[libmain.so]0xb53ef
+JNIEnv->ReleaseStringUTFChars("6.4.90") was called from RX@0x400b5405[libmain.so]0xb5405
+JNIEnv->GetObjectArrayElement(["securitybody", "6.4.90", "/data/user/0/com.tmall.wireless/app_SGLib/app_1650422279/main/libsgsecuritybodyso-6.4.90.so"], 2) => "/data/user/0/com.tmall.wireless/app_SGLib/app_1650422279/main/libsgsecuritybodyso-6.4.90.so" was called from RX@0x400b68b1[libmain.so]0xb68b1
+JNIEnv->GetStringUtfChars("/data/user/0/com.tmall.wireless/app_SGLib/app_1650422279/main/libsgsecuritybodyso-6.4.90.so") was called from RX@0x400b53ef[libmain.so]0xb53ef
+JNIEnv->ReleaseStringUTFChars("/data/user/0/com.tmall.wireless/app_SGLib/app_1650422279/main/libsgsecuritybodyso-6.4.90.so") was called from RX@0x400b5405[libmain.so]0xb5405
+JNIEnv->FindClass(com/alibaba/wireless/security/framework/SGPluginExtras) was called from RX@0x40010dfd[libmain.so]0x10dfd
+JNIEnv->NewGlobalRef(class com/alibaba/wireless/security/framework/SGPluginExtras) was called from RX@0x40010e09[libmain.so]0x10e09
+JNIEnv->GetStaticFieldID(com/alibaba/wireless/security/framework/SGPluginExtras.slotJ) => 0x24d12279 was called from RX@0x40010e57[libmain.so]0x10e57
+JNIEnv->GetStaticLongField(class com/alibaba/wireless/security/framework/SGPluginExtras, slot => 0x410418ae) was called from RX@0x40010e73[libmain.so]0x10e73
+=====================get currentTimeMillis 1651633397130
+=====================get currentTimeMillis 1651633397131
+=====================get currentTimeMillis 1651633397132
+JNIEnv->CallStaticVoidMethod(class com/alibaba/wireless/security/securitybody/LifeCycle, registerCallBack()) was called from RX@0x4105c059[libsecuritybody.so]0x1d059
+[11:03:17 138]  INFO [com.github.unidbg.linux.ARM32SyscallHandler] (ARM32SyscallHandler:814) - pthread_clone child_stack=RW@0x4116e930, thread_id=7, fn=RX@0x401c17f5[libc.so]0x3f7f5, arg=RW@0x4116e930, flags=[CLONE_VM, CLONE_FS, CLONE_FILES, CLONE_SIGHAND, CLONE_THREAD, CLONE_SYSVSEM, CLONE_SETTLS, CLONE_PARENT_SETTID, CLONE_CHILD_CLEARTID]
+[11:03:17 142]  INFO [com.github.unidbg.linux.ARM32SyscallHandler] (ARM32SyscallHandler:814) - pthread_clone child_stack=RW@0x4126d930, thread_id=8, fn=RX@0x401c17f5[libc.so]0x3f7f5, arg=RW@0x4126d930, flags=[CLONE_VM, CLONE_FS, CLONE_FILES, CLONE_SIGHAND, CLONE_THREAD, CLONE_SYSVSEM, CLONE_SETTLS, CLONE_PARENT_SETTID, CLONE_CHILD_CLEARTID]
+fuckkey:persist.sys.dalvik.vm.lib
+fuckkey:persist.sys.dalvik.vm.lib.2
+=====================get currentTimeMillis 1651633397145
+[11:03:17 150]  INFO [com.github.unidbg.linux.ARM32SyscallHandler] (ARM32SyscallHandler:814) - pthread_clone child_stack=RW@0x4136c930, thread_id=9, fn=RX@0x401c17f5[libc.so]0x3f7f5, arg=RW@0x4136c930, flags=[CLONE_VM, CLONE_FS, CLONE_FILES, CLONE_SIGHAND, CLONE_THREAD, CLONE_SYSVSEM, CLONE_SETTLS, CLONE_PARENT_SETTID, CLONE_CHILD_CLEARTID]
+=====================get currentTimeMillis 1651633397151
+[11:03:17 155]  INFO [com.github.unidbg.linux.ARM32SyscallHandler] (ARM32SyscallHandler:814) - pthread_clone child_stack=RW@0x4146b930, thread_id=10, fn=RX@0x401c17f5[libc.so]0x3f7f5, arg=RW@0x4146b930, flags=[CLONE_VM, CLONE_FS, CLONE_FILES, CLONE_SIGHAND, CLONE_THREAD, CLONE_SYSVSEM, CLONE_SETTLS, CLONE_PARENT_SETTID, CLONE_CHILD_CLEARTID]
+JNIEnv->GetMethodID(java/lang/Integer.<init>(I)V) => 0x4c76e5db was called from RX@0x400b5aa7[libmain.so]0xb5aa7
+JNIEnv->NewObject(class java/lang/Integer, <init>(0x0) => java.lang.Integer@7b227d8d) was called from RX@0x40011007[libmain.so]0x11007
+xiayu, initSecurityBody.ret-10102: 0
+avMp base 1095155712
+JNIEnv->FindClass(java/lang/Boolean) was called from RX@0x414943f5[libavmp.so]0x283f5
+JNIEnv->NewGlobalRef(class java/lang/Boolean) was called from RX@0x414943ff[libavmp.so]0x283ff
+JNIEnv->FindClass(java/lang/Integer) was called from RX@0x4149440f[libavmp.so]0x2840f
+JNIEnv->NewGlobalRef(class java/lang/Integer) was called from RX@0x41494419[libavmp.so]0x28419
+JNIEnv->FindClass(java/lang/String) was called from RX@0x41494429[libavmp.so]0x28429
+JNIEnv->NewGlobalRef(class java/lang/String) was called from RX@0x41494433[libavmp.so]0x28433
+JNIEnv->FindClass(com/alibaba/wireless/security/framework/SGPluginExtras) was called from RX@0x41495385[libavmp.so]0x29385
+JNIEnv->GetStaticFieldID(com/alibaba/wireless/security/framework/SGPluginExtras.slotJ) => 0x24d12279 was called from RX@0x41495399[libavmp.so]0x29399
+JNIEnv->SetStaticLongField(class com/alibaba/wireless/security/framework/SGPluginExtras, slot, 0x4146e0ee) was called from RX@0x414953b1[libavmp.so]0x293b1
+Find native function Java_com_taobao_wireless_security_adapter_JNICLibrary_doCommandNative => RX@0x40010269[libmain.so]0x10269
+JNIEnv->GetArrayLength(["avmp", "6.4.34", "/data/user/0/com.tmall.wireless/app_SGLib/app_1650422279/main/libsgavmpso-6.4.34.so"] => 3) was called from RX@0x40010b29[libmain.so]0x10b29
+JNIEnv->GetObjectArrayElement(["avmp", "6.4.34", "/data/user/0/com.tmall.wireless/app_SGLib/app_1650422279/main/libsgavmpso-6.4.34.so"], 0) => "avmp" was called from RX@0x400b68b1[libmain.so]0xb68b1
+JNIEnv->GetStringUtfChars("avmp") was called from RX@0x400b53ef[libmain.so]0xb53ef
+JNIEnv->ReleaseStringUTFChars("avmp") was called from RX@0x400b5405[libmain.so]0xb5405
+JNIEnv->GetObjectArrayElement(["avmp", "6.4.34", "/data/user/0/com.tmall.wireless/app_SGLib/app_1650422279/main/libsgavmpso-6.4.34.so"], 1) => "6.4.34" was called from RX@0x400b68b1[libmain.so]0xb68b1
+JNIEnv->GetStringUtfChars("6.4.34") was called from RX@0x400b53ef[libmain.so]0xb53ef
+JNIEnv->ReleaseStringUTFChars("6.4.34") was called from RX@0x400b5405[libmain.so]0xb5405
+JNIEnv->GetObjectArrayElement(["avmp", "6.4.34", "/data/user/0/com.tmall.wireless/app_SGLib/app_1650422279/main/libsgavmpso-6.4.34.so"], 2) => "/data/user/0/com.tmall.wireless/app_SGLib/app_1650422279/main/libsgavmpso-6.4.34.so" was called from RX@0x400b68b1[libmain.so]0xb68b1
+JNIEnv->GetStringUtfChars("/data/user/0/com.tmall.wireless/app_SGLib/app_1650422279/main/libsgavmpso-6.4.34.so") was called from RX@0x400b53ef[libmain.so]0xb53ef
+JNIEnv->ReleaseStringUTFChars("/data/user/0/com.tmall.wireless/app_SGLib/app_1650422279/main/libsgavmpso-6.4.34.so") was called from RX@0x400b5405[libmain.so]0xb5405
+JNIEnv->GetStaticLongField(class com/alibaba/wireless/security/framework/SGPluginExtras, slot => 0x4146e0ee) was called from RX@0x40010e73[libmain.so]0x10e73
+=====================get currentTimeMillis 1651633397210
+=====================get currentTimeMillis 1651633397212
+[11:03:17 219]  INFO [com.github.unidbg.linux.ARM32SyscallHandler] (ARM32SyscallHandler:814) - pthread_clone child_stack=RW@0x41599930, thread_id=11, fn=RX@0x401c17f5[libc.so]0x3f7f5, arg=RW@0x41599930, flags=[CLONE_VM, CLONE_FS, CLONE_FILES, CLONE_SIGHAND, CLONE_THREAD, CLONE_SYSVSEM, CLONE_SETTLS, CLONE_PARENT_SETTID, CLONE_CHILD_CLEARTID]
+JNIEnv->GetMethodID(java/lang/Integer.<init>(I)V) => 0x4c76e5db was called from RX@0x400b5aa7[libmain.so]0xb5aa7
+JNIEnv->NewObject(class java/lang/Integer, <init>(0x0) => java.lang.Integer@79efed2d) was called from RX@0x40011007[libmain.so]0x11007
+xiayu, initAvMp.ret-10102: 0
+Find native function Java_com_taobao_wireless_security_adapter_JNICLibrary_doCommandNative => RX@0x40010269[libmain.so]0x10269
+JNIEnv->GetObjectArrayElement([java.util.HashMap@12b0404f, "23181017", java.lang.Integer@769e7ee8, null, true], 0) => java.util.HashMap@12b0404f was called from RX@0x400b6deb[libmain.so]0xb6deb
+JNIEnv->CallObjectMethod(java.util.HashMap@12b0404f, keySet() => java.util.Set@5276e6b0) was called from RX@0x400b6e43[libmain.so]0xb6e43
+JNIEnv->CallObjectMethod(java.util.Set@5276e6b0, toArray() => ["INPUT"]) was called from RX@0x400b6e5f[libmain.so]0xb6e5f
+JNIEnv->GetArrayLength(["INPUT"] => 1) was called from RX@0x400b6e6f[libmain.so]0xb6e6f
+JNIEnv->GetObjectArrayElement(["INPUT"], 0) => "INPUT" was called from RX@0x400b6f0d[libmain.so]0xb6f0d
+JNIEnv->GetStringUtfChars("INPUT") was called from RX@0x400b537d[libmain.so]0xb537d
+JNIEnv->ReleaseStringUTFChars("INPUT") was called from RX@0x400b53c7[libmain.so]0xb53c7
+JNIEnv->CallObjectMethod(java.util.HashMap@12b0404f, get("INPUT") => "aaaaa") was called from RX@0x400b6f2d[libmain.so]0xb6f2d
+JNIEnv->GetStringUtfChars("aaaaa") was called from RX@0x400b53ef[libmain.so]0xb53ef
+JNIEnv->ReleaseStringUTFChars("aaaaa") was called from RX@0x400b5405[libmain.so]0xb5405
+JNIEnv->GetObjectArrayElement([java.util.HashMap@12b0404f, "23181017", java.lang.Integer@769e7ee8, null, true], 1) => "23181017" was called from RX@0x400b68b1[libmain.so]0xb68b1
+JNIEnv->GetStringUtfChars("23181017") was called from RX@0x400b53ef[libmain.so]0xb53ef
+JNIEnv->ReleaseStringUTFChars("23181017") was called from RX@0x400b5405[libmain.so]0xb5405
+JNIEnv->GetObjectArrayElement([java.util.HashMap@12b0404f, "23181017", java.lang.Integer@769e7ee8, null, true], 2) => java.lang.Integer@769e7ee8 was called from RX@0x400b68e9[libmain.so]0xb68e9
+JNIEnv->GetMethodID(java/lang/Integer.intValue()I) => 0x5d9f068b was called from RX@0x400b5921[libmain.so]0xb5921
+JNIEnv->CallIntMethod(java.lang.Integer@769e7ee8, intValue() => 0x7) was called from RX@0x40029da9[libmain.so]0x29da9
+JNIEnv->GetObjectArrayElement([java.util.HashMap@12b0404f, "23181017", java.lang.Integer@769e7ee8, null, true], 3) => null was called from RX@0x400b68b1[libmain.so]0xb68b1
+JNIEnv->GetObjectArrayElement([java.util.HashMap@12b0404f, "23181017", java.lang.Integer@769e7ee8, null, true], 4) => true was called from RX@0x400b6921[libmain.so]0xb6921
+JNIEnv->GetMethodID(java/lang/Boolean.booleanValue()Z) => 0x31f67dab was called from RX@0x400b59b9[libmain.so]0xb59b9
+JNIEnv->CallBooleanMethod(true, booleanValue() => true) was called from RX@0x400b59c7[libmain.so]0xb59c7
+resolve.pathname: /proc/self/status
+File opened '/proc/self/status' with oflags=0x20000 errno is 2 from RX@0x4019de75[libc.so]0x1be75
+[11:03:17 263]  INFO [com.github.unidbg.linux.ARM32SyscallHandler] (ARM32SyscallHandler:1890) - openat dirfd=-100, pathname=/proc/self/status, oflags=0x20000, mode=0
+resolve.pathname: /proc/221512/stat
+File opened '/proc/221512/stat' with oflags=0x20000 errno is 2 from RX@0x4019de75[libc.so]0x1be75
+[11:03:17 270]  INFO [com.github.unidbg.linux.ARM32SyscallHandler] (ARM32SyscallHandler:1890) - openat dirfd=-100, pathname=/proc/221512/stat, oflags=0x20000, mode=0
+resolve.pathname: /proc/221512/wchan
+File opened '/proc/221512/wchan' with oflags=0x20000 errno is 2 from RX@0x4019de75[libc.so]0x1be75
+[11:03:17 272]  INFO [com.github.unidbg.linux.ARM32SyscallHandler] (ARM32SyscallHandler:1890) - openat dirfd=-100, pathname=/proc/221512/wchan, oflags=0x20000, mode=0
+resolve.pathname: /proc/self/status
+File opened '/proc/self/status' with oflags=0x20000 errno is 2 from RX@0x4019de75[libc.so]0x1be75
+[11:03:17 274]  INFO [com.github.unidbg.linux.ARM32SyscallHandler] (ARM32SyscallHandler:1890) - openat dirfd=-100, pathname=/proc/self/status, oflags=0x20000, mode=0
+fuckkey:ro.build.fingerprint
+fuckkey:ro.build.version.sdk
+=====================get currentTimeMillis 1651633397281
+[11:03:17 286] Memory READ at 0xbffff060, data size = 4, data value = 0xbffff074 pc=RX@0x400714d0[libmain.so]0x714d0 lr=unidbg@0xbffff074
+[11:03:17 286] Memory READ at 0xbffff05c, data size = 4, data value = 0x402e4000 pc=RX@0x40070f2e[libmain.so]0x70f2e lr=unidbg@0xbffff074
+[11:03:17 288] Memory READ at 0xbffff05c, data size = 4, data value = 0x0 pc=RX@0x4007c0c6[libmain.so]0x7c0c6 lr=RX@0x4000ef69[libmain.so]0xef69
+[11:03:17 288] Memory READ at 0xbffff060, data size = 4, data value = 0x39 pc=RX@0x4007c21e[libmain.so]0x7c21e lr=RX@0x4000ef69[libmain.so]0xef69
+[11:03:17 288] Memory READ at 0xbffff054, data size = 4, data value = 0x4000f001 pc=RX@0x4007c224[libmain.so]0x7c224 lr=RX@0x4000ef69[libmain.so]0xef69
+[11:03:17 288] Memory READ at 0xbffff058, data size = 4, data value = 0x0 pc=RX@0x4007c33c[libmain.so]0x7c33c lr=RX@0x4000ef69[libmain.so]0xef69
+[11:03:17 289] Memory READ at 0xbffff058, data size = 4, data value = 0xd4 pc=RX@0x4007bd78[libmain.so]0x7bd78 lr=RX@0x4000ef69[libmain.so]0xef69
+[11:03:17 289] Memory READ at 0xbffff060, data size = 4, data value = 0x39 pc=RX@0x4007be7c[libmain.so]0x7be7c lr=RX@0x4000ef69[libmain.so]0xef69
+[11:03:17 289] Memory READ at 0xbffff054, data size = 4, data value = 0x4000f001 pc=RX@0x4007be80[libmain.so]0x7be80 lr=RX@0x4000ef69[libmain.so]0xef69
+[11:03:17 289] Memory READ at 0xbffff05c, data size = 4, data value = 0x0 pc=RX@0x4007c4b6[libmain.so]0x7c4b6 lr=RX@0x4007c49b[libmain.so]0x7c49b
+[11:03:17 294] Memory READ at 0xbffff05c, data size = 4, data value = 0x0 pc=RX@0x4007c0c6[libmain.so]0x7c0c6 lr=RX@0x4000ef69[libmain.so]0xef69
+[11:03:17 294] Memory READ at 0xbffff060, data size = 4, data value = 0xe0 pc=RX@0x4007c3bc[libmain.so]0x7c3bc lr=RX@0x4000ef69[libmain.so]0xef69
+[11:03:17 294] Memory READ at 0xbffff054, data size = 4, data value = 0xa6 pc=RX@0x4007c3c0[libmain.so]0x7c3c0 lr=RX@0x4000ef69[libmain.so]0xef69
+[11:03:17 295] Memory READ at 0xbffff05c, data size = 4, data value = 0x0 pc=RX@0x4007c404[libmain.so]0x7c404 lr=RX@0x4007c3e1[libmain.so]0x7c3e1
+[11:03:17 295] Memory READ at 0xbffff050, data size = 4, data value = 0x6d pc=RX@0x4007c95c[libmain.so]0x7c95c lr=RX@0x4000ef69[libmain.so]0xef69
+[11:03:17 296] Memory READ at 0xbffff058, data size = 4, data value = 0x21 pc=RX@0x401c1e9c[libc.so]0x3fe9c lr=RX@0x401d8e69[libc.so]0x56e69
+[11:03:17 297] Memory READ at 0xbffff05c, data size = 4, data value = 0x401d8e69 pc=RX@0x401c1e9c[libc.so]0x3fe9c lr=RX@0x401d8e69[libc.so]0x56e69
+[11:03:17 297] Memory READ at 0xbffff060, data size = 4, data value = 0x4 pc=RX@0x401de5d0[libc.so]0x5c5d0 lr=RX@0x401d90ed[libc.so]0x570ed
+[11:03:17 297] Memory READ at 0xbffff058, data size = 4, data value = 0x4 pc=RX@0x401de5fe[libc.so]0x5c5fe lr=RX@0x401cd371[libc.so]0x4b371
+[11:03:17 297] Memory READ at 0xbffff05c, data size = 4, data value = 0x401d90ed pc=RX@0x401de5fe[libc.so]0x5c5fe lr=RX@0x401cd371[libc.so]0x4b371
+resolve.pathname: /proc/self/status
+File opened '/proc/self/status' with oflags=0x20000 errno is 2 from RX@0x4019de75[libc.so]0x1be75
+[11:03:17 299]  INFO [com.github.unidbg.linux.ARM32SyscallHandler] (ARM32SyscallHandler:1890) - openat dirfd=-100, pathname=/proc/self/status, oflags=0x20000, mode=0
+resolve.pathname: /proc/221512/stat
+File opened '/proc/221512/stat' with oflags=0x20000 errno is 2 from RX@0x4019de75[libc.so]0x1be75
+[11:03:17 300]  INFO [com.github.unidbg.linux.ARM32SyscallHandler] (ARM32SyscallHandler:1890) - openat dirfd=-100, pathname=/proc/221512/stat, oflags=0x20000, mode=0
+resolve.pathname: /proc/221512/wchan
+File opened '/proc/221512/wchan' with oflags=0x20000 errno is 2 from RX@0x4019de75[libc.so]0x1be75
+[11:03:17 301]  INFO [com.github.unidbg.linux.ARM32SyscallHandler] (ARM32SyscallHandler:1890) - openat dirfd=-100, pathname=/proc/221512/wchan, oflags=0x20000, mode=0
+resolve.pathname: /proc/self/status
+File opened '/proc/self/status' with oflags=0x20000 errno is 2 from RX@0x4019de75[libc.so]0x1be75
+[11:03:17 302]  INFO [com.github.unidbg.linux.ARM32SyscallHandler] (ARM32SyscallHandler:1890) - openat dirfd=-100, pathname=/proc/self/status, oflags=0x20000, mode=0
+fuckkey:ro.build.fingerprint
+fuckkey:ro.build.version.sdk
+debugger break at: 0x4009a0e0
+>>> r0=0xbffff16c(-1073745556) r1=0x5 r2=0x402dea78 r3=0x402d10d8 r4=0x0 r5=0xbffff238 r6=0x0 r7=0xbffff1b0 r8=0xbffff668 sb=0xbffff668 sl=0x400dc588 fp=0x1 ip=0x2
+>>> SP=0xbffff168 LR=RX@0x4009a40d[libmain.so]0x9a40d PC=RX@0x4009a0e0[libmain.so]0x9a0e0 cpsr: N=0, Z=0, C=1, V=0, T=1, mode=0b10000
+>>> d0=0x6230343238353038(9.331188486207575E164) d1=0x3934313863313361(3.8888890994958744E-33) d2=0x6169583d746e6964(1.7816182066999342E161) d3=0x707069642f696d6b(4.076710050812323E233) d4=0x65707069642f7265(4.263395948972069E180) d5=0x31514b502f393a72(3.91526637763343E-71) d6=0x2e3932373038312e(5.0663537841902465E-86) d7=0x2e372e392f313030(4.6610651517491076E-86)
+>>> d8=0x0(0.0) d9=0x0(0.0) d10=0x0(0.0) d11=0x0(0.0) d12=0x0(0.0) d13=0x0(0.0) d14=0x0(0.0) d15=0x0(0.0)
+=> *[libmain.so        *0x9a0e1]*[f0b5    ]*0x4009a0e0:*"push {r4, r5, r6, r7, lr}"
+    [libmain.so         0x9a0e3] [03af    ] 0x4009a0e2: "add r7, sp, #0xc"
+    [libmain.so         0x9a0e5] [2de9000f] 0x4009a0e4: "push.w {r8, sb, sl, fp}"
+    [libmain.so         0x9a0e9] [a7b0    ] 0x4009a0e8: "sub sp, #0x9c"
+    [libmain.so         0x9a0eb] [0446    ] 0x4009a0ea: "mov r4, r0"
+    [libmain.so         0x9a0ed] [5648    ] 0x4009a0ec: "ldr r0, [pc, #0x158]"
+    [libmain.so         0x9a0ef] [002c    ] 0x4009a0ee: "cmp r4, #0"
+    [libmain.so         0x9a0f1] [7844    ] 0x4009a0f0: "add r0, pc"
+    [libmain.so         0x9a0f3] [0068    ] 0x4009a0f2: "ldr r0, [r0]"
+    [libmain.so         0x9a0f5] [0068    ] 0x4009a0f4: "ldr r0, [r0]"
+    [libmain.so         0x9a0f7] [2690    ] 0x4009a0f6: "str r0, [sp, #0x98]"
+    [libmain.so         0x9a0f9] [10d0    ] 0x4009a0f8: "beq #0x4009a11c"
+    [libmain.so         0x9a0fb] [a068    ] 0x4009a0fa: "ldr r0, [r4, #8]"
+    [libmain.so         0x9a0fd] [70b1    ] 0x4009a0fc: "cbz r0, #0x4009a11c"
+    [libmain.so         0x9a0ff] [e068    ] 0x4009a0fe: "ldr r0, [r4, #0xc]"
+    [libmain.so         0x9a101] [60b1    ] 0x4009a100: "cbz r0, #0x4009a11c"
+
+c
+[11:03:20 597] Memory READ at 0xbffff050, data size = 4, data value = 0xe03060e pc=RX@0x4009b04c[libmain.so]0x9b04c lr=RX@0x4009b023[libmain.so]0x9b023
+[11:03:20 597] Memory READ at 0xbffff054, data size = 4, data value = 0x54060204 pc=RX@0x4009b04c[libmain.so]0x9b04c lr=RX@0x4009b023[libmain.so]0x9b023
+[11:03:20 597] Memory READ at 0xbffff058, data size = 4, data value = 0x36363636 pc=RX@0x4009b04c[libmain.so]0x9b04c lr=RX@0x4009b023[libmain.so]0x9b023
+[11:03:20 597] Memory READ at 0xbffff05c, data size = 4, data value = 0x36363636 pc=RX@0x4009b04c[libmain.so]0x9b04c lr=RX@0x4009b023[libmain.so]0x9b023
+[11:03:20 597] Memory READ at 0xbffff060, data size = 4, data value = 0x36363636 pc=RX@0x4009b04c[libmain.so]0x9b04c lr=RX@0x4009b023[libmain.so]0x9b023
+[11:03:20 599] Memory READ at 0xbffff050, data size = 4, data value = 0x0 pc=RX@0x4009b04c[libmain.so]0x9b04c lr=RX@0x4009b273[libmain.so]0x9b273
+[11:03:20 599] Memory READ at 0xbffff054, data size = 4, data value = 0x0 pc=RX@0x4009b04c[libmain.so]0x9b04c lr=RX@0x4009b273[libmain.so]0x9b273
+[11:03:20 599] Memory READ at 0xbffff058, data size = 4, data value = 0x0 pc=RX@0x4009b04c[libmain.so]0x9b04c lr=RX@0x4009b273[libmain.so]0x9b273
+[11:03:20 599] Memory READ at 0xbffff05c, data size = 4, data value = 0x0 pc=RX@0x4009b04c[libmain.so]0x9b04c lr=RX@0x4009b273[libmain.so]0x9b273
+[11:03:20 599] Memory READ at 0xbffff060, data size = 4, data value = 0x0 pc=RX@0x4009b04c[libmain.so]0x9b04c lr=RX@0x4009b273[libmain.so]0x9b273
+[11:03:20 599] Memory READ at 0xbffff050, data size = 4, data value = 0x64696c64 pc=RX@0x4009b04c[libmain.so]0x9b04c lr=RX@0x4009b023[libmain.so]0x9b023
+[11:03:20 599] Memory READ at 0xbffff054, data size = 4, data value = 0x3e6c686e pc=RX@0x4009b04c[libmain.so]0x9b04c lr=RX@0x4009b023[libmain.so]0x9b023
+[11:03:20 599] Memory READ at 0xbffff058, data size = 4, data value = 0x5c5c5c5c pc=RX@0x4009b04c[libmain.so]0x9b04c lr=RX@0x4009b023[libmain.so]0x9b023
+[11:03:20 599] Memory READ at 0xbffff05c, data size = 4, data value = 0x5c5c5c5c pc=RX@0x4009b04c[libmain.so]0x9b04c lr=RX@0x4009b023[libmain.so]0x9b023
+[11:03:20 599] Memory READ at 0xbffff060, data size = 4, data value = 0x5c5c5c5c pc=RX@0x4009b04c[libmain.so]0x9b04c lr=RX@0x4009b023[libmain.so]0x9b023
+[11:03:20 600] Memory READ at 0xbffff050, data size = 4, data value = 0x0 pc=RX@0x4009b04c[libmain.so]0x9b04c lr=RX@0x4009b273[libmain.so]0x9b273
+[11:03:20 600] Memory READ at 0xbffff054, data size = 4, data value = 0x0 pc=RX@0x4009b04c[libmain.so]0x9b04c lr=RX@0x4009b273[libmain.so]0x9b273
+[11:03:20 600] Memory READ at 0xbffff058, data size = 4, data value = 0x0 pc=RX@0x4009b04c[libmain.so]0x9b04c lr=RX@0x4009b273[libmain.so]0x9b273
+[11:03:20 600] Memory READ at 0xbffff05c, data size = 4, data value = 0x0 pc=RX@0x4009b04c[libmain.so]0x9b04c lr=RX@0x4009b273[libmain.so]0x9b273
+[11:03:20 600] Memory READ at 0xbffff060, data size = 4, data value = 0x0 pc=RX@0x4009b04c[libmain.so]0x9b04c lr=RX@0x4009b273[libmain.so]0x9b273
+=====================get currentTimeMillis 1651633400636
+resolve.pathname: /data/user/0/com.tmall.wireless/files
+[11:03:20 674] Memory READ at 0xbffff050, data size = 1, data value = 0x3f pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 676] Memory READ at 0xbffff051, data size = 1, data value = 0x79 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 676] Memory READ at 0xbffff052, data size = 1, data value = 0x3e pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 676] Memory READ at 0xbffff053, data size = 1, data value = 0x6e pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 676] Memory READ at 0xbffff055, data size = 1, data value = 0x68 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=unidbg@0x1
+[11:03:20 676] Memory READ at 0xbffff056, data size = 1, data value = 0x3f pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 676] Memory READ at 0xbffff057, data size = 1, data value = 0x58 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 676] Memory READ at 0xbffff054, data size = 1, data value = 0x72 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 676] Memory READ at 0xbffff05a, data size = 1, data value = 0x35 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=unidbg@0x1
+[11:03:20 676] Memory READ at 0xbffff05b, data size = 1, data value = 0x65 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 676] Memory READ at 0xbffff058, data size = 1, data value = 0x6f pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 676] Memory READ at 0xbffff059, data size = 1, data value = 0x74 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 676] Memory READ at 0xbffff05f, data size = 1, data value = 0x3c pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=unidbg@0x1
+[11:03:20 676] Memory READ at 0xbffff05c, data size = 1, data value = 0x35 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 676] Memory READ at 0xbffff05d, data size = 1, data value = 0x39 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 676] Memory READ at 0xbffff05e, data size = 1, data value = 0x59 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 678] Memory READ at 0xbffff060, data size = 1, data value = 0x42 pc=RX@0x4006bfb6[libmain.so]0x6bfb6 lr=unidbg@0xbfffeee0
+[11:03:20 680] Memory READ at 0xbffff050, data size = 1, data value = 0x3f pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=unidbg@0x1
+[11:03:20 680] Memory READ at 0xbffff051, data size = 1, data value = 0x47 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 680] Memory READ at 0xbffff052, data size = 1, data value = 0xd1 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 680] Memory READ at 0xbffff053, data size = 1, data value = 0xc5 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 680] Memory READ at 0xbffff055, data size = 1, data value = 0x07 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=unidbg@0x1
+[11:03:20 680] Memory READ at 0xbffff056, data size = 1, data value = 0x8a pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 680] Memory READ at 0xbffff057, data size = 1, data value = 0xe7 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 680] Memory READ at 0xbffff054, data size = 1, data value = 0x46 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 680] Memory READ at 0xbffff05a, data size = 1, data value = 0x43 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=unidbg@0x1
+[11:03:20 680] Memory READ at 0xbffff05b, data size = 1, data value = 0xb5 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 680] Memory READ at 0xbffff058, data size = 1, data value = 0x7e pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 680] Memory READ at 0xbffff059, data size = 1, data value = 0xe9 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 680] Memory READ at 0xbffff05f, data size = 1, data value = 0xb5 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=unidbg@0x1
+[11:03:20 680] Memory READ at 0xbffff05c, data size = 1, data value = 0x4e pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 680] Memory READ at 0xbffff05d, data size = 1, data value = 0x74 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 680] Memory READ at 0xbffff05e, data size = 1, data value = 0xd7 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 681] Memory READ at 0xbffff060, data size = 1, data value = 0xf3 pc=RX@0x4006bfb6[libmain.so]0x6bfb6 lr=unidbg@0xbfffeee0
+[11:03:20 681] Memory READ at 0xbffff050, data size = 1, data value = 0x69 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=unidbg@0x1
+[11:03:20 681] Memory READ at 0xbffff051, data size = 1, data value = 0x06 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 681] Memory READ at 0xbffff052, data size = 1, data value = 0xac pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 681] Memory READ at 0xbffff053, data size = 1, data value = 0x1d pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 681] Memory READ at 0xbffff055, data size = 1, data value = 0x59 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=unidbg@0x1
+[11:03:20 681] Memory READ at 0xbffff056, data size = 1, data value = 0xbd pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 681] Memory READ at 0xbffff057, data size = 1, data value = 0x3f pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 681] Memory READ at 0xbffff054, data size = 1, data value = 0x9c pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 681] Memory READ at 0xbffff05a, data size = 1, data value = 0xdf pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=unidbg@0x1
+[11:03:20 682] Memory READ at 0xbffff05b, data size = 1, data value = 0xff pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 682] Memory READ at 0xbffff058, data size = 1, data value = 0x56 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 682] Memory READ at 0xbffff059, data size = 1, data value = 0x7e pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 682] Memory READ at 0xbffff05f, data size = 1, data value = 0x80 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=unidbg@0x1
+[11:03:20 682] Memory READ at 0xbffff05c, data size = 1, data value = 0x74 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 682] Memory READ at 0xbffff05d, data size = 1, data value = 0x9d pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 682] Memory READ at 0xbffff05e, data size = 1, data value = 0x17 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 682] Memory READ at 0xbffff060, data size = 1, data value = 0x3f pc=RX@0x4006bfb6[libmain.so]0x6bfb6 lr=unidbg@0xbfffeee0
+[11:03:20 682] Memory READ at 0xbffff050, data size = 1, data value = 0x6c pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=unidbg@0x1
+[11:03:20 682] Memory READ at 0xbffff051, data size = 1, data value = 0x14 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 682] Memory READ at 0xbffff052, data size = 1, data value = 0xfb pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 682] Memory READ at 0xbffff053, data size = 1, data value = 0xd1 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 682] Memory READ at 0xbffff055, data size = 1, data value = 0x83 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=unidbg@0x1
+[11:03:20 682] Memory READ at 0xbffff056, data size = 1, data value = 0x34 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 682] Memory READ at 0xbffff057, data size = 1, data value = 0x48 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 683] Memory READ at 0xbffff054, data size = 1, data value = 0x9b pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 683] Memory READ at 0xbffff05a, data size = 1, data value = 0xbb pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=unidbg@0x1
+[11:03:20 683] Memory READ at 0xbffff05b, data size = 1, data value = 0x6f pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 683] Memory READ at 0xbffff058, data size = 1, data value = 0xd6 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 683] Memory READ at 0xbffff059, data size = 1, data value = 0x18 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 683] Memory READ at 0xbffff05f, data size = 1, data value = 0xe6 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=unidbg@0x1
+[11:03:20 683] Memory READ at 0xbffff05c, data size = 1, data value = 0x31 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 683] Memory READ at 0xbffff05d, data size = 1, data value = 0xfb pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 683] Memory READ at 0xbffff05e, data size = 1, data value = 0x3d pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 683] Memory READ at 0xbffff060, data size = 1, data value = 0xd7 pc=RX@0x4006bfb6[libmain.so]0x6bfb6 lr=unidbg@0xbfffeee0
+[11:03:20 683] Memory READ at 0xbffff050, data size = 1, data value = 0xbd pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=unidbg@0x1
+[11:03:20 683] Memory READ at 0xbffff051, data size = 1, data value = 0xba pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 683] Memory READ at 0xbffff052, data size = 1, data value = 0x81 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 683] Memory READ at 0xbffff053, data size = 1, data value = 0x21 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 683] Memory READ at 0xbffff055, data size = 1, data value = 0x5c pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=unidbg@0x1
+[11:03:20 683] Memory READ at 0xbffff056, data size = 1, data value = 0x27 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 684] Memory READ at 0xbffff057, data size = 1, data value = 0xa3 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 684] Memory READ at 0xbffff054, data size = 1, data value = 0x5b pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 684] Memory READ at 0xbffff05a, data size = 1, data value = 0x46 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=unidbg@0x1
+[11:03:20 684] Memory READ at 0xbffff05b, data size = 1, data value = 0x22 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 684] Memory READ at 0xbffff058, data size = 1, data value = 0xad pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 684] Memory READ at 0xbffff059, data size = 1, data value = 0x3d pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 684] Memory READ at 0xbffff05f, data size = 1, data value = 0x32 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=unidbg@0x1
+[11:03:20 684] Memory READ at 0xbffff05c, data size = 1, data value = 0xb6 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 684] Memory READ at 0xbffff05d, data size = 1, data value = 0x5d pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 684] Memory READ at 0xbffff05e, data size = 1, data value = 0xe4 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 684] Memory READ at 0xbffff060, data size = 1, data value = 0xf3 pc=RX@0x4006bfb6[libmain.so]0x6bfb6 lr=unidbg@0xbfffeee0
+[11:03:20 684] Memory READ at 0xbffff050, data size = 1, data value = 0x91 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=unidbg@0x1
+[11:03:20 684] Memory READ at 0xbffff051, data size = 1, data value = 0xfc pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 684] Memory READ at 0xbffff052, data size = 1, data value = 0x0d pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 684] Memory READ at 0xbffff053, data size = 1, data value = 0xde pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 684] Memory READ at 0xbffff055, data size = 1, data value = 0x1d pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=unidbg@0x1
+[11:03:20 684] Memory READ at 0xbffff056, data size = 1, data value = 0xc3 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 685] Memory READ at 0xbffff057, data size = 1, data value = 0x95 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 685] Memory READ at 0xbffff054, data size = 1, data value = 0x9a pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 685] Memory READ at 0xbffff05a, data size = 1, data value = 0x4d pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=unidbg@0x1
+[11:03:20 685] Memory READ at 0xbffff05b, data size = 1, data value = 0x97 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 685] Memory READ at 0xbffff058, data size = 1, data value = 0x19 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 685] Memory READ at 0xbffff059, data size = 1, data value = 0xb0 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 685] Memory READ at 0xbffff05f, data size = 1, data value = 0x2c pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=unidbg@0x1
+[11:03:20 685] Memory READ at 0xbffff05c, data size = 1, data value = 0x4a pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 685] Memory READ at 0xbffff05d, data size = 1, data value = 0xdf pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 685] Memory READ at 0xbffff05e, data size = 1, data value = 0x36 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 685] Memory READ at 0xbffff060, data size = 1, data value = 0xb3 pc=RX@0x4006bfb6[libmain.so]0x6bfb6 lr=unidbg@0xbfffeee0
+[11:03:20 686] Memory READ at 0xbffff050, data size = 1, data value = 0x20 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=unidbg@0x1
+[11:03:20 686] Memory READ at 0xbffff051, data size = 1, data value = 0x79 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 686] Memory READ at 0xbffff052, data size = 1, data value = 0x97 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 686] Memory READ at 0xbffff053, data size = 1, data value = 0xa7 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 686] Memory READ at 0xbffff055, data size = 1, data value = 0xbe pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=unidbg@0x1
+[11:03:20 686] Memory READ at 0xbffff056, data size = 1, data value = 0xb5 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 686] Memory READ at 0xbffff057, data size = 1, data value = 0xc8 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 686] Memory READ at 0xbffff054, data size = 1, data value = 0x2e pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 686] Memory READ at 0xbffff05a, data size = 1, data value = 0x98 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=unidbg@0x1
+[11:03:20 686] Memory READ at 0xbffff05b, data size = 1, data value = 0xc1 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 686] Memory READ at 0xbffff058, data size = 1, data value = 0x35 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 686] Memory READ at 0xbffff059, data size = 1, data value = 0x1a pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 686] Memory READ at 0xbffff05f, data size = 1, data value = 0xb6 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=unidbg@0x1
+[11:03:20 686] Memory READ at 0xbffff05c, data size = 1, data value = 0x95 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 686] Memory READ at 0xbffff05d, data size = 1, data value = 0x0d pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 686] Memory READ at 0xbffff05e, data size = 1, data value = 0xc5 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 686] Memory READ at 0xbffff060, data size = 1, data value = 0x0a pc=RX@0x4006bfb6[libmain.so]0x6bfb6 lr=unidbg@0xbfffeee0
+[11:03:20 686] Memory READ at 0xbffff050, data size = 1, data value = 0x01 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=unidbg@0x1
+[11:03:20 687] Memory READ at 0xbffff051, data size = 1, data value = 0xc8 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 687] Memory READ at 0xbffff052, data size = 1, data value = 0x35 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 687] Memory READ at 0xbffff053, data size = 1, data value = 0x6c pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 687] Memory READ at 0xbffff055, data size = 1, data value = 0x0a pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=unidbg@0x1
+[11:03:20 687] Memory READ at 0xbffff056, data size = 1, data value = 0xa9 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 687] Memory READ at 0xbffff057, data size = 1, data value = 0xd7 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 687] Memory READ at 0xbffff054, data size = 1, data value = 0x59 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 687] Memory READ at 0xbffff05a, data size = 1, data value = 0xf8 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=unidbg@0x1
+[11:03:20 687] Memory READ at 0xbffff05b, data size = 1, data value = 0xf1 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 687] Memory READ at 0xbffff058, data size = 1, data value = 0x63 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 687] Memory READ at 0xbffff059, data size = 1, data value = 0x08 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 687] Memory READ at 0xbffff05f, data size = 1, data value = 0xb5 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=unidbg@0x1
+[11:03:20 687] Memory READ at 0xbffff05c, data size = 1, data value = 0x24 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 687] Memory READ at 0xbffff05d, data size = 1, data value = 0x21 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 687] Memory READ at 0xbffff05e, data size = 1, data value = 0x73 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 687] Memory READ at 0xbffff060, data size = 1, data value = 0x48 pc=RX@0x4006bfb6[libmain.so]0x6bfb6 lr=unidbg@0xbfffeee0
+[11:03:20 687] Memory READ at 0xbffff050, data size = 1, data value = 0xcf pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=unidbg@0x1
+[11:03:20 688] Memory READ at 0xbffff051, data size = 1, data value = 0x76 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 688] Memory READ at 0xbffff052, data size = 1, data value = 0x07 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 688] Memory READ at 0xbffff053, data size = 1, data value = 0xa8 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 688] Memory READ at 0xbffff055, data size = 1, data value = 0x62 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=unidbg@0x1
+[11:03:20 688] Memory READ at 0xbffff056, data size = 1, data value = 0xf9 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 688] Memory READ at 0xbffff057, data size = 1, data value = 0x59 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 688] Memory READ at 0xbffff054, data size = 1, data value = 0xa6 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 688] Memory READ at 0xbffff05a, data size = 1, data value = 0x3f pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=unidbg@0x1
+[11:03:20 688] Memory READ at 0xbffff05b, data size = 1, data value = 0xbf pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 688] Memory READ at 0xbffff058, data size = 1, data value = 0x8a pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 688] Memory READ at 0xbffff059, data size = 1, data value = 0xe7 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 688] Memory READ at 0xbffff05f, data size = 1, data value = 0xd9 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=unidbg@0x1
+[11:03:20 688] Memory READ at 0xbffff05c, data size = 1, data value = 0x5c pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 688] Memory READ at 0xbffff05d, data size = 1, data value = 0xf7 pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 688] Memory READ at 0xbffff05e, data size = 1, data value = 0x8e pc=RX@0x4006bb12[libmain.so]0x6bb12 lr=null
+[11:03:20 688] Memory READ at 0xbffff060, data size = 1, data value = 0xa8 pc=RX@0x4006bfb6[libmain.so]0x6bfb6 lr=unidbg@0xbfffeee0
+[11:03:20 689] Memory READ at 0xbffff050, data size = 1, data value = 0x4a pc=RX@0x401996a4[libc.so]0x176a4 lr=RX@0x400b439b[libmain.so]0xb439b
+[11:03:20 689] Memory READ at 0xbffff051, data size = 1, data value = 0xf0 pc=RX@0x401996a4[libc.so]0x176a4 lr=RX@0x400b439b[libmain.so]0xb439b
+[11:03:20 689] Memory READ at 0xbffff052, data size = 1, data value = 0xf5 pc=RX@0x401996a4[libc.so]0x176a4 lr=RX@0x400b439b[libmain.so]0xb439b
+[11:03:20 689] Memory READ at 0xbffff053, data size = 1, data value = 0x95 pc=RX@0x401996a4[libc.so]0x176a4 lr=RX@0x400b439b[libmain.so]0xb439b
+[11:03:20 689] Memory READ at 0xbffff054, data size = 1, data value = 0x15 pc=RX@0x401996a4[libc.so]0x176a4 lr=RX@0x400b439b[libmain.so]0xb439b
+[11:03:20 689] Memory READ at 0xbffff055, data size = 1, data value = 0xb3 pc=RX@0x401996a4[libc.so]0x176a4 lr=RX@0x400b439b[libmain.so]0xb439b
+[11:03:20 689] Memory READ at 0xbffff056, data size = 1, data value = 0x28 pc=RX@0x401996a4[libc.so]0x176a4 lr=RX@0x400b439b[libmain.so]0xb439b
+[11:03:20 689] Memory READ at 0xbffff057, data size = 1, data value = 0xb5 pc=RX@0x401996a4[libc.so]0x176a4 lr=RX@0x400b439b[libmain.so]0xb439b
+[11:03:20 689] Memory READ at 0xbffff058, data size = 1, data value = 0x36 pc=RX@0x401996a4[libc.so]0x176a4 lr=RX@0x400b439b[libmain.so]0xb439b
+[11:03:20 689] Memory READ at 0xbffff059, data size = 1, data value = 0x58 pc=RX@0x401996a4[libc.so]0x176a4 lr=RX@0x400b439b[libmain.so]0xb439b
+[11:03:20 689] Memory READ at 0xbffff05a, data size = 1, data value = 0xfa pc=RX@0x401996a4[libc.so]0x176a4 lr=RX@0x400b439b[libmain.so]0xb439b
+[11:03:20 689] Memory READ at 0xbffff05b, data size = 1, data value = 0x69 pc=RX@0x401996a4[libc.so]0x176a4 lr=RX@0x400b439b[libmain.so]0xb439b
+[11:03:20 689] Memory READ at 0xbffff05c, data size = 1, data value = 0xc9 pc=RX@0x401996a4[libc.so]0x176a4 lr=RX@0x400b439b[libmain.so]0xb439b
+[11:03:20 689] Memory READ at 0xbffff05d, data size = 1, data value = 0x30 pc=RX@0x401996a4[libc.so]0x176a4 lr=RX@0x400b439b[libmain.so]0xb439b
+[11:03:20 689] Memory READ at 0xbffff05e, data size = 1, data value = 0xd6 pc=RX@0x401996a4[libc.so]0x176a4 lr=RX@0x400b439b[libmain.so]0xb439b
+[11:03:20 689] Memory READ at 0xbffff05f, data size = 1, data value = 0x9b pc=RX@0x401996a4[libc.so]0x176a4 lr=RX@0x400b439b[libmain.so]0xb439b
+[11:03:20 693] Memory READ at 0xbffff050, data size = 1, data value = 0xd6 pc=RX@0x4006cdbe[libmain.so]0x6cdbe lr=null
+[11:03:20 693] Memory READ at 0xbffff051, data size = 1, data value = 0x6c pc=RX@0x4006cdbe[libmain.so]0x6cdbe lr=null
+[11:03:20 693] Memory READ at 0xbffff052, data size = 1, data value = 0x69 pc=RX@0x4006cdbe[libmain.so]0x6cdbe lr=null
+[11:03:20 693] Memory READ at 0xbffff053, data size = 1, data value = 0x09 pc=RX@0x4006cdbe[libmain.so]0x6cdbe lr=null
+[11:03:20 693] Memory READ at 0xbffff055, data size = 1, data value = 0x2f pc=RX@0x4006cdbe[libmain.so]0x6cdbe lr=unidbg@0x1
+[11:03:20 693] Memory READ at 0xbffff056, data size = 1, data value = 0xb4 pc=RX@0x4006cdbe[libmain.so]0x6cdbe lr=unidbg@0x1
+[11:03:20 693] Memory READ at 0xbffff057, data size = 1, data value = 0x29 pc=RX@0x4006cdbe[libmain.so]0x6cdbe lr=unidbg@0x1
+[11:03:20 693] Memory READ at 0xbffff054, data size = 1, data value = 0x89 pc=RX@0x4006cdbe[libmain.so]0x6cdbe lr=unidbg@0x1
+[11:03:20 694] Memory READ at 0xbffff05a, data size = 1, data value = 0x66 pc=RX@0x4006cdbe[libmain.so]0x6cdbe lr=unidbg@0x2
+[11:03:20 694] Memory READ at 0xbffff05b, data size = 1, data value = 0xf5 pc=RX@0x4006cdbe[libmain.so]0x6cdbe lr=unidbg@0x2
+[11:03:20 694] Memory READ at 0xbffff058, data size = 1, data value = 0xaa pc=RX@0x4006cdbe[libmain.so]0x6cdbe lr=unidbg@0x2
+[11:03:20 694] Memory READ at 0xbffff059, data size = 1, data value = 0xc4 pc=RX@0x4006cdbe[libmain.so]0x6cdbe lr=unidbg@0x2
+[11:03:20 694] Memory READ at 0xbffff05f, data size = 1, data value = 0x07 pc=RX@0x4006cdbe[libmain.so]0x6cdbe lr=unidbg@0x3
+[11:03:20 694] Memory READ at 0xbffff05c, data size = 1, data value = 0x55 pc=RX@0x4006cdbe[libmain.so]0x6cdbe lr=unidbg@0x3
+[11:03:20 694] Memory READ at 0xbffff05d, data size = 1, data value = 0xac pc=RX@0x4006cdbe[libmain.so]0x6cdbe lr=unidbg@0x3
+[11:03:20 694] Memory READ at 0xbffff05e, data size = 1, data value = 0x4a pc=RX@0x4006cdbe[libmain.so]0x6cdbe lr=unidbg@0x3
+[11:03:20 699] Memory READ at 0xbffff050, data size = 1, data value = 0xdd pc=RX@0x4006cadc[libmain.so]0x6cadc lr=unidbg@0xbfffeee4
+[11:03:20 699] Memory READ at 0xbffff051, data size = 1, data value = 0xbb pc=RX@0x4006cadc[libmain.so]0x6cadc lr=unidbg@0xbfffeee4
+[11:03:20 699] Memory READ at 0xbffff052, data size = 1, data value = 0xcb pc=RX@0x4006cadc[libmain.so]0x6cadc lr=unidbg@0xbfffeee4
+[11:03:20 699] Memory READ at 0xbffff053, data size = 1, data value = 0xc3 pc=RX@0x4006cadc[libmain.so]0x6cadc lr=unidbg@0xbfffeee4
+[11:03:20 699] Memory READ at 0xbffff054, data size = 1, data value = 0x93 pc=RX@0x4006cadc[libmain.so]0x6cadc lr=unidbg@0xbfffeee4
+[11:03:20 699] Memory READ at 0xbffff055, data size = 1, data value = 0xab pc=RX@0x4006cadc[libmain.so]0x6cadc lr=unidbg@0xbfffeee4
+[11:03:20 699] Memory READ at 0xbffff056, data size = 1, data value = 0xf4 pc=RX@0x4006cadc[libmain.so]0x6cadc lr=unidbg@0xbfffeee4
+[11:03:20 699] Memory READ at 0xbffff057, data size = 1, data value = 0x87 pc=RX@0x4006cadc[libmain.so]0x6cadc lr=unidbg@0xbfffeee4
+[11:03:20 699] Memory READ at 0xbffff058, data size = 1, data value = 0xea pc=RX@0x4006cadc[libmain.so]0x6cadc lr=unidbg@0xbfffeee4
+[11:03:20 699] Memory READ at 0xbffff059, data size = 1, data value = 0x6c pc=RX@0x4006cadc[libmain.so]0x6cadc lr=unidbg@0xbfffeee4
+[11:03:20 699] Memory READ at 0xbffff05a, data size = 1, data value = 0x2a pc=RX@0x4006cadc[libmain.so]0x6cadc lr=unidbg@0xbfffeee4
+[11:03:20 699] Memory READ at 0xbffff05b, data size = 1, data value = 0x6a pc=RX@0x4006cadc[libmain.so]0x6cadc lr=unidbg@0xbfffeee4
+[11:03:20 699] Memory READ at 0xbffff05c, data size = 1, data value = 0xa7 pc=RX@0x4006cadc[libmain.so]0x6cadc lr=unidbg@0xbfffeee4
+[11:03:20 699] Memory READ at 0xbffff05d, data size = 1, data value = 0x32 pc=RX@0x4006cadc[libmain.so]0x6cadc lr=unidbg@0xbfffeee4
+[11:03:20 699] Memory READ at 0xbffff05e, data size = 1, data value = 0x79 pc=RX@0x4006cadc[libmain.so]0x6cadc lr=unidbg@0xbfffeee4
+[11:03:20 699] Memory READ at 0xbffff05f, data size = 1, data value = 0x70 pc=RX@0x4006cadc[libmain.so]0x6cadc lr=unidbg@0xbfffeee4
+debugger break at: 0x4009a0e0
+>>> r0=0xbffff16c(-1073745556) r1=0x18 r2=0x402dea78 r3=0x402d92e0 r4=0x0 r5=0xbffff238 r6=0x0 r7=0xbffff1b0 r8=0xbffff668 sb=0xbffff668 sl=0x400dc588 fp=0x1 ip=0x2
+>>> SP=0xbffff168 LR=RX@0x4009a40d[libmain.so]0x9a40d PC=RX@0x4009a0e0[libmain.so]0x9a0e0 cpsr: N=0, Z=0, C=1, V=0, T=1, mode=0b10000
+>>> d0=0x3030343530326261(1.3993992763498945E-76) d1=0x357043394c4c4462(2.7166302996950604E-51) d2=0xfe89898988ddb937(-3.420423548562072E301) d3=0xf4bac7f5e1bc3975(-1.9634719333233653E254) d4=0xbcb60c724cca0455(-3.0598605703288453E-16) d5=0xb9b9b9b9b9b9b9b8(-1.2683645927082932E-30) d6=0xb0b9b9b9b9b9b9b9(-5.6875435390915314E-74) d7=0xa9b9b9b9bcb9b9b9(-1.0953810488080791E-107)
+>>> d8=0x0(0.0) d9=0x0(0.0) d10=0x0(0.0) d11=0x0(0.0) d12=0x0(0.0) d13=0x0(0.0) d14=0x0(0.0) d15=0x0(0.0)
+=> *[libmain.so        *0x9a0e1]*[f0b5    ]*0x4009a0e0:*"push {r4, r5, r6, r7, lr}"
+    [libmain.so         0x9a0e3] [03af    ] 0x4009a0e2: "add r7, sp, #0xc"
+    [libmain.so         0x9a0e5] [2de9000f] 0x4009a0e4: "push.w {r8, sb, sl, fp}"
+    [libmain.so         0x9a0e9] [a7b0    ] 0x4009a0e8: "sub sp, #0x9c"
+    [libmain.so         0x9a0eb] [0446    ] 0x4009a0ea: "mov r4, r0"
+    [libmain.so         0x9a0ed] [5648    ] 0x4009a0ec: "ldr r0, [pc, #0x158]"
+    [libmain.so         0x9a0ef] [002c    ] 0x4009a0ee: "cmp r4, #0"
+    [libmain.so         0x9a0f1] [7844    ] 0x4009a0f0: "add r0, pc"
+    [libmain.so         0x9a0f3] [0068    ] 0x4009a0f2: "ldr r0, [r0]"
+    [libmain.so         0x9a0f5] [0068    ] 0x4009a0f4: "ldr r0, [r0]"
+    [libmain.so         0x9a0f7] [2690    ] 0x4009a0f6: "str r0, [sp, #0x98]"
+    [libmain.so         0x9a0f9] [10d0    ] 0x4009a0f8: "beq #0x4009a11c"
+    [libmain.so         0x9a0fb] [a068    ] 0x4009a0fa: "ldr r0, [r4, #8]"
+    [libmain.so         0x9a0fd] [70b1    ] 0x4009a0fc: "cbz r0, #0x4009a11c"
+    [libmain.so         0x9a0ff] [e068    ] 0x4009a0fe: "ldr r0, [r4, #0xc]"
+    [libmain.so         0x9a101] [60b1    ] 0x4009a100: "cbz r0, #0x4009a11c"
+
